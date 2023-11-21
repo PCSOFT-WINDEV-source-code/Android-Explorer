@@ -1,0 +1,184 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Extension
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x182ed928002c38a8
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAAcizSV+Al6S0JJRwilUKiNKU+dhDMq+SAkmCf91iOzZF3l5bLfbTcGLgt8XYo87SXZJJDB6EaxyowZhlDkmRO6pXkRgl7tF2ImCmYiAAOG2JPg8b2OIOV3Q5CVHkdtebAFzUywxiSjXfeJ0S9IYJqrYfVt/r+UM7lozbZrLsTcdoknGf/Nr5Dlq2vvmmB5OeTU0OszFXhCopZ+ZHs+PPe7MMLdDpx/DjylmIAb
+     code : |1-
+      
+      EType is énumération
+      	Images		= "jpg,jpeg,png,bmp,ico,psd,gif"
+      	Archived	= "7z,zip,rar,wdzip,tar,tgz,gz"
+      	Documents	= "pdf,doc,docx,odt,txt,html,c,java,css,js,srt"
+      	Videos		= "avi,mkv,mp4,flv"
+      	Music		=  "mp3,ogg,m4a,flac"
+      	empty		= "*"
+      end
+     type : 720896
+  procedures :
+   -
+     name : ListExtension
+     internal_properties : CAAAAAgAAAD2QTIEfZNE0QSky7GGCBNKrRJmIq7lKTYm6KjJoTYaH3CVOzIJABSRPhbi6NZEIZoWrk77pjTZ8/bCeQaEgjTFJe6wTKDEq9Z0LP4Z4T5NfjOoGOaqXwyreRYhiSTBUXSQR2jMMULuKX2wq/SFveDB9rwy/xkyNVodknEleoJak59RCbsI+2I/1foMDIENqNqZwFsSDYY=
+     procedure_id : 1742568948973404146
+     type_code : 15
+     code : |1+
+      // Summary: Lists the lists with a specific extension
+      // Parameters:
+      //	sExtension (UNICODE string): Extension to list
+      //	sSourceDir (UNICODE string): Source directory
+      // Return value:
+      // 	UNICODE string: List of files with the extension
+      //
+      procedure private ListExtension(local sExtension is string,sSourceDir is string) : string
+      sLocalFileExtension	is string 
+      sDirLevel1			is string	= fListDirectory(sSourceDir+[fSep],frNotRecursive)
+      
+      // Browse the directories of level 1 
+      for each string sDir of sDirLevel1 SEPAREE by CR
+      	
+      	// Ignore the hidden directories and the general Android directory
+      	if ExtractString(sDir,1,fSep,FromEnd)[="." or ExtractString(sDir,1,fSep,FromEnd)="Android" then
+      		continue
+      	end
+      	
+      	// Start a search for the other directories of the directory
+      	fListDirectory(sDir+[fSep],ListLocalDir)	
+      	
+      	// List the current directory 
+      	ListLocalDir(sDir+[fSep],"",0,0)	
+      end
+      
+      ListLocalDir(sSourceDir+[fSep],"",0,0)
+      
+      return sLocalFileExtension
+      
+      	INTERNAL PROCEDURE ListLocalDir(sPath is string,sDirname is string,Change is int <useful>, Pointer is int <useful>)
+      		
+      		// Hidden directory
+      		if Contains(sPath+[fSep]+sDirname,fSep+".") then
+      			// Return true to continue the browse
+      			return True
+      		end
+      		
+      		// Perform a non-recursive search for the requested extension
+      		sfil is string 
+      		sfil=  fListFile(sPath+[fSep]+sDirname+[fSep]+"*."+sExtension,frNotRecursive)
+      		
+      		// Write into the variable that groups all the files by extension
+      		CriticalSectionStart("ListExtensions")
+      		sLocalFileExtension+=[CR]+sfil
+      		CriticalSectionEnd("ListExtensions")
+      		
+      		// Return true to continue the browse
+      		return True
+      	end
+      
+      
+      
+     type : 458752
+   -
+     name : ListType
+     internal_properties : CAAAAAgAAACn8E1OH5IocS2HT/uhHGu39IeZnNxyG53LKdTpmaYCvEP7pnYSpFu68EUgBuNQYrTfa+XMwV+ApEmdQ3pTQtTQd++7KGFWGGwWvhsx9XLugDPtQxMo04Gvw3GSd+7m1fOAYGEfIEzpfocslaf0M8FzTf675OnJeOOTGJjPzfK3b1IFNjz4
+     procedure_id : 1742569090707422794
+     type_code : 15
+     code : |1-
+      // Summary: Lists all the files with a specific type 
+      // Parameters:
+      //	eListTypes (SET_Extension.EType): List of types to list
+      //	bRecursive (boolean - default value=1): Recursive mode
+      //	sDir (UNICODE string): Directory to list (if empty, list the internal memory)
+      // Return value:
+      // 	None
+      // Automatic procedure:
+      // The procedure is run manually, during a call in the code
+      // It will be run in a thread (without having to call ThreadExecute), without using HFSQL
+      // 
+      
+      procedure ListType(local eListType is EType,bRecursive is boolean = True, sDir is string = SysDirStorageCard)
+      
+      sListFiles is string
+      
+      if bRecursive then
+      	// List all the requested extensions recursively
+      	for each string sType of eListType.Value separee by ","
+      		sListFiles+=[CR]+ListExtension(sType,sDir)
+      	end
+      else	
+      	
+      	// List the folders
+      	sListFiles+=[CR]+fListDirectory(sDir+[fSep],frNotRecursive)
+      	
+      	// List all the requested extensions in non-recursive mode, for the current directory only
+      	for each string sType of eListType.Value separee by ","
+      		sListFiles+=[CR]+fListFile(sDir+[fSep]+"*."+sType,frNotRecursive)
+      	end
+      end
+      
+      if sListFiles = "" then
+      	sListFiles = "__-1__"
+      end
+      
+      gsFileList = sListFiles
+     type : 458752
+   -
+     name : GetImageAccordingToExtension
+     internal_properties : CAAAAAgAAABKpVZdk7FgsSama+VKystucwA0vGKfGc4U/gCV9UCiPxJH4VwJdpSVLGSmqJYy1dr4wKQFhhJBg6Qg4a4sqDzxI9TKEsT+g6I6Qq5eKPFy2erXzVnhaj9MKIXgGj/YWgOPRtUXKI0x2izvajH4PE20UReTJpzxtEsEyWiS8QXbCmK8fiZDktEs0OX3dUgokcl8mXd2qSI=
+     procedure_id : 1742641757258853292
+     type_code : 15
+     code : |1-
+      // Summary: Returns the image of a type according to the extension
+      // Parameters:
+      //	sFile (UNICODE string): Requested extension
+      // Return value:
+      // 	UNICODE string: Extension image
+      //
+      procedure getImageAccordingToExtension(sFile is string) : string
+      
+      //returns 16x16 thumbnail
+      sExtension is string = Replace(fExtractPath(sFile,fExtension),".","")
+      
+      if Contains(Archived,sExtension) then
+      	return WIN_Home.IMG_Archived
+      end
+      if Contains(Documents,sExtension) then
+      	if sExtension = "pdf" then
+      		return WIN_Home.IMG_PDF
+      	else		
+      		return WIN_Home.IMG_Document
+      	end
+      end
+      if Contains(Images,sExtension) then
+      	return sFile
+      end
+      if Contains(Music,sExtension) then
+      	return WIN_Home.IMG_Music
+      end
+      if Contains(Videos,sExtension) then
+      	return WIN_Home.IMG_Video
+      end
+      
+      return ""
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x106de39a00009fec
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

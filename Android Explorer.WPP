@@ -1,0 +1,122 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Android Explorer
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : CAAAAAgAAABvEBlSg4KUNEm9Rha6+ZwDmXqzW/lmLjfexwSBre3bebL0ol0hpQCWyIdqwadWhEY3Syun858TET2YNdzF+h2YBsvqOjpJR1cOWeHDkIb8S21H5aCPZVkFYOpOazn+6HPWSIFVUpvB/maA25klHYSIPfxaYW6KlGVymngimajYUwwGBl1+/DQphh4XxQ5QuaBEdFFNYv0dy/ksTGbiXk9qAuCXlQI6r8zPp7zqZsnmrV5OEF0eSDjTCqHAUp744QlHt9eiDMUJEQqesDZyYeYc7BIhijBww3sT2jkfdDa/yPZQrHgxxaHE/iReRBWeYZfnptUo+6Eh+3Q59pqgTyBZcVMKh4nxDYtLn76PRCkQtdXc9W9RQnCVmLJR91cT3RrKitVeSZJrW13kaksNHwdin4XADBn0dPpn9mtPLRQjlriePHecTy4kgiY7HZYHWP2uPMIc4al3JjZsr6GnE4Y0IvHLhDDQazWiAnwreH7wVTQapWIKAMp0K1jSb4llVUMmT9apwd/ZbnCcUnzW4GMJAPk1q3JVoU12mbQZ8WHeQ4ltgvZj2TPrJwq5DQ5DlqmeRGTg7po9q4oQ+hG4MIueJHbLhmXr9rim9nhP/7oYrgh8xMA75WwBn65xnRqnAGOIhutpMvTlmJxmyIgHAnXRfi0rMqOYScQpImFcqM5QDN0ZcAqMHt3TXND9SN/d32B2lLyvUek3bBfg55Jsc4FTNL/XPZcx1bZhfOrOwHxaUX9Sx6b2HUqWzFPn4D+6BFVGA+frCiXg+KrB8vG3GH0HVjTR2/SOIHSG+9DDmQm/NmKMWGSHsN/ygBFMmw7rDtejPw2DURQQAh0HVRe4A/g1xAnTgaP4o1w3bXDWPD1nJZF5+tBWDz/lMwoN8iFL3Q4e9LPRM0Vr8IGBM96/23DUH3nLVHx2GenmXwDxaHPAMeAiJbjCtE3w9fNVok38uNYpyoDepYNDl1OcQWUG+2XnpMAuXiNcxCSpw0jZJpsFQPh41g+qHMWIjWDOitvfoB0jAaWHrawuVhm1Oj5Twyqd4IcDw5P4AnEojEd8SKE93cdqSLHaGSNisBgLdo4z6yM2BJohDUtlchoVyKNYcyg6MFYiiCjIftvnorelKdUcapL/WairIzuFWgqI5nTimDGxut0lNuOQ33be0PaGLEz+CpjR/67CoR6xV2CULHUzc1XJHUP3tZ09vkP4FFQQSfsvv89PZNfj095TDnaDTj10kkEqeFXQzWMf8gdfZ8+Ksy//fESE2SWOE3U7lKEeVCIrtAUYcoqifigi//4jkiVFMSdkH+E6/qGPRNAos1FnSmt8uJH3lcHRlfvnSmj7CzllNY3HfmPd9GK93Al4oXzI3Ws3R+g6aLef7x7kVM0oCxfw7enIZJoO5UFHFLf7IoxNFwJjH6e2ow4OssVhtRAic+0fvy6dNK7J/bLr684QQScv7k3W+jvQhXFd1W/YDKoX97IHcTEfwE4KXPSyUUgK5kqqnhV5n3lwTHAfIWQOsPjch0Uor39XTnRvWBECWN7GsDp9WBo84/iBDJY5GdmZPwlyk/bP0HXSjBN+t2OlQfwmDYcdYCl6uUpYetAKmeXuBwN46j7U4/Gg6+qwZq7dcG+czbP3KK5M2vjmPmqT/R3ogGNdAzxL6WyFPnM6e8cIYQGhL1PuEoWnMLo4vG+zdYXblWBEIzKk3EieJ3BNrsC6Hs1VfCLKZhIcLeH+M1fiANXma6BydNX80SfY8yaXXuXpo/iRz1rR7kGb4hz0p8nwbVGQ2CYokFbIuW/FoZIXnx2mg0oF18HpT7A5LcJLsfM4Mx1GfChXn6QLvtdj0gPuQsScOaP2mmSIilEHvfjjUC9eydsb8TR4QQAltAzqKTySceuC3st0H2MCfvjAwkDF66UXyP7Fud8C+yxkFkZ11JfmFvXzWovkUJi3qewTmSnC1DKgchdYuu5okcnxwLdNtlf3f7HmGL858yyorMjVB11rFrILE8xK4Fj+vd2TWpe7r5AVouigB0451wpvB72ivCARfSvTtnpDX/D3GeSyReFDfFlN5IC2SHUw+koQTPkdI1neVfJcNcV1yKnwlV6+f6wBBTF3GjeNf5dyNwXt3EWEzDOq4Zk0FvUcyVjZjyDhyQWb0mUEjxTV20QzBt8wkut0dNkAXtO7ih+I9ZdImZhFXMijXSxiNtvDQfA/sCD5Tg+pi3Baw46VONbgOXIvXAVmvJyoyLkG0Inv1edv/uuSRLTh2hkgczc7AESIfjS5dkXbka5ydKvnJbAJ0ToPAt3u2yDuEzjiEmFGYY01C+TOW6yY4ubHMi9BF/lmqMSCi49YLkyIGZQ2lXktJJCO+whUJa074go0qMJDe/GKNuZCfBYtLmndsMd656mchhMiHLC5LjFR7WmwNdu8TqjjdVXA6PbT/b8kkunqCgwdaiDlZwZ/IPgQKYMiVAo9bT4DbgC5LAsk35f+Odgp1ZeRO/x75vj5NzYmeJcKS+WEYCOqalF9LEJ9ZjWSNqwoPEmsgKSGW8cIN08qWTCtm+rNfQrdP5qLFq591o7KVTMWC3i156JyoDfWoBDxBbG/DpvGC/K31+OaTzvjH308Yzc06hq62Oq4CUwhp2znVw+qyVxM8OgL1bfrGdVhxTIMaD9r4VtKIvq/nsAkZNVDOmGoRIRdOU3krQ4mXPLTYQSeB/0CbHjT5ZUTMHijXk02MZ6j4Y1fEUnLBQyAZLs8p4ClwbUby3jc/KQOisiYJO1JI4jZwbNinuGhl3ZGj81PFNml75JbrbkiCckEr7QRhHKSRKuwjoDGWO5QWNYmzB00UDlU7JrKCGOAiKDHRkWpKMrZC6t+ee0cuiRgnZobldoqlV+HlWQtCd9DPOgFipeaAQla7Lpr5ettlCCcmm7wqElb+tVRWqSddpbXdVG9st/FmNZJW1h7ADJ6ppjVMlwXomiKWuWH3xLbHm5LzK+I6Da0Y+dsZ6lpMeV6u3lFipsVpPigzIIitfDUG8F5icunbx33pJTo6r+Obn4iTfaFA8AKXf1tv2JsuMpV5oYMNYzVlY0HhcRTFr62ejo6ydHNCsJFskip2kGiDJjYR2xPP9ML6wMdBiDlTTKY8gqWzmP8cuq+DgpA42i4pD3xygt02pLaBk3ixHfQcnj6ks9xyv5fDSTvTIdA+mwFl2t/L7FZSZMJg7mRLBVY/KSgLeUi/H273bsWyJObOSGg1HAUudl18eqnRqSYMPvSgP90tk5fQ6E555JCdxrmsgu3POTdBV3iMrPAgnesiJzYLPsYhVbrUeEFHunaTJ5nE4ptZWGSgqwsoF7MC8hdJxTzAHAoKlavO/qlUdp68EcvpW+yE5mr9Qmsh/OzVbeMLOmXKytVK3R7mVUmrZibgdKQTbD3j/xBEzy7I13M0A9H1f4GX2tsYDLeiSmWcFvLCw/o9kR8zofOtvWnHi0lizWy6xNVheP0ptdiDNhKajWtV0E8PcO+AhZnFF2BkTELezuoIpulT0c1Z9t0vz2oBFdur97q5OHJlUKYlksi7PjLCQF9oi/jQY6Zvtm/r36qYptYVpaxndg3iQCIrzgGBiPA3WQg8FOIrml98SXk9PELWSfLPu+jpdyEjeyhERw8/HVT11AoyqijicSq6YoBy+RXfF256zxdk0zJzQ4DsTyrqQTMgc2gvPQxAurl4wdKBIIICgUFwZWzRYKcI5/PUWv2Mxe7T9GEUqoyLNNrjdccaMejFuSDLYCvdi7wgIZHM/PblzbgDJqXEYyVJNB64jcGNzS4dg7Gph7fF1I6TqCg2BxWz7zdyzKmg0jqLpkPr2/G2DYdhYe9q5wc2/9VY4fzfABchvs6qqJNjfR7tf/B9z4adTkoHIDYW2wpz1Mve/UTt9einsARK69VDAoNnzAw7Uw7MzKimvWAkpZ26HeR+8Uqx/xds/4aIZ9ja1hbnx1uTAKMYI/zLSS8gxdNa4NHwK5BW+RJO90a/O9ja/CDXdNF5tf7DQODDqTrq5xVey13325RyVaS5iV1uAhsyC2WCztmjporO17PL93r7wKWIqRhiDYw9J77HtLzO6lM4Elfx//VY8Y1CwWkF5bpQ2GAmYtW9tSfp4ryMKICHkPJDzELjBAOgtSk3ZQKqBgfszZ5BacFRaJ3iUrC/beVnzMiHz29d+SLL5xUc2TlvXET8a1Iq4+fxX3nNpZGs36T19cQLiwwwxRV55lU48Bo9LgsORzC+uF1pUDvZB8N+aRUfMkq81AFxziaFYVoTdhiGM0sPvUpejr+wqySuUwcCKyojQFD0Mox1fAQqqw6iKspOOdwn3YB92tzGuv8MNGFz4gL2+QbS5NfEdewnzg7ETAVRo7HMwx9yYR0IqhAWxtPiiXpkVjf7Wc00zq1QW9eybnNMex3wiKW89zBCMYJP+Ny9tcIm5U7OsVbWHX6PugYAa+pv7aHOmvvkaAW18cWSzXPbDM1vPvrmQVhMHm4Qdha93bUKR+1nJ4Qf2/Yga4h6MdSpidzFogw65NQsLkaLS5BLtxdDumkHYiUapWQeTgzd/6PHDXQXklRjknNss80VbLozJoXtZGuMgab+/0L6NDDNMO+E1Su+24mOGc8tZD/a0zwTQxtTIX9umTtPnnr1m2isQxzdq354YYlwhEAXYvQJ/GePPNan4tGdDAT1qGxucip9mG1ox9RhovxMkp/QigYLqSAyU45NGK72coc/LOkvh02MvLnlQrUO8+wQFz4uYrnMQZ6vKBG7KMTVGCFO8mHkGU6r0fg59hJcxQdln4x9sjeCSw3Cgc12G9KZkxDqHMzzptEPIqyObU4/nBvgQ8vKH+tH7m2r0qf+cK0828exCRY3ARdLONXFkD5y/BUOTghme5OxvcIOr57tbLZ8000Ge4jsXzh2NAA5KPvqVnnX1nveyvlnPw+wH0jhqhiDvxXs0yZ0QvKtLhEJoCwENfyK167ZffF62p6ga+Jop3VTk56k5Hxh0Hy2bSE0PMzkLxZYx75BEj14WnYwv/13+gb9Ls4Ych8OSij9INfTKuwg4ud0+Tv5UsjqhWs8Ma5iu8OkqJUB39nhP+OmrpUFXa7M6SCtnpASu5KV0Yx6dZojjD/uqUO2wjRYG1kiOFo3Ucz+WtoEZuG3BkLW53JUw0TLB+iF7q//D/GNATMhkGjQ0fZ//T8PascOkqTWzo1Qk9aNkDhYa1GULdO58Y27thZ8qX7hbEmHR+BJxVwGtUwSoh0ECVOsxI/GPjVlAraJvhv0niAkrnki3ECUHXguC4k46eUbk0SKdvhTtAUlj7Q6krNh1PtB8JWETDnOtf4JdaldbTMJGqrJzFtQXPtw7VvlISQVD7UXVF1QL5TA5vckqtHUzsYkO0+pXGIKA+e14/2Hx9iFhYkSFHwvEq5eVLSl+Riwp+8OSKthQ==
+    configuration_id : 10111868248741843312
+    type : 15
+    version : {}
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4811ccc000d59d5d
+  elements :
+   -
+     name : WIN_About
+     identifier : 0x4811ce5b02e8e517
+     internal_properties : CAAAAAgAAAAcenSgH0Ts/0zxel+Nbv72NglVRXn/CQN2iTJywSZ2Yl68vybNNTb4GQ+Jdz+xSb8JCQ==
+     physical_name : .\WIN_About.wdw
+     type : 2
+   -
+     name : WIN_DisplayFolder
+     identifier : 0x481af2440130faea
+     internal_properties : CAAAAAgAAADGTC5yse7G6cpEJuzWIBt5ROGD2/pwh/OKFDGBu30f6Qc7s0fkHUeHk4lzTdUL9+nTUw==
+     physical_name : .\WIN_DisplayFolder.wdw
+     type : 2
+   -
+     name : WIN_Renames
+     identifier : 0x481a2994011c084e
+     internal_properties : CAAAAAgAAAAoJhAMu+DI05A+W6LG/IuP7pHdXXJDSrhCjg7dPvKavkLoSj7dJOBlvWNdW9sV7eMtNQ==
+     physical_name : .\WIN_Renames.wpw
+     type : 2
+   -
+     name : IW_InfoLeft
+     identifier : 0x481a11dc011161eb
+     internal_properties : CAAAAAgAAABk4kxoVwwkx5Qyd47KFcToyOmHnyK7axe2UQ2eQf8VO90F6mepUJy5wWdRr3dpEYdx8Q==
+     physical_name : .\IW_InfoLeft.wdw
+     type : 8
+   -
+     name : COL_Extension
+     identifier : 0x482ed928015438a8
+     internal_properties : CAAAAAgAAABcOrTg34SsvwyuPxKCEFeVCnlRWWpLVLlCjgjb4CB0ZFSu3loJ8DhVWc/JN//xiX9JyQ==
+     physical_name : .\COL_Extension.wdg
+     type : 7
+   -
+     name : WIN_Home
+     identifier : 0x4811cec402f88039
+     internal_properties : CAAAAAgAAAD0UtzY51zU1+Q5svjNnn8mGL/XD7iV7SdCjs35ir5W2nqE1atc5v7A0XdhXyfZoRfhYQ==
+     physical_name : .\WIN_Home.wdw
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ common_generation_directory : true
+ languages :
+  - en-GB
+ wd_style_sheet : .\WM Explorer.sty
+ wb_style_sheet : .\WM Explorer.wws
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+      constant
+      	// Constant to manage the copy/cut/paste
+      	Copy		= 1
+      	Cut			= 2
+      	NoOperation	= 3
+      	
+      	// Types
+      	type_Folder	= "Folder"
+      	type_File	= "File"
+      end
+      
+      // The information about the copy, cut, paste mode is common to all the windows
+      gnCopyCutMode	is int							= NoOperation
+      gsCopyCutFile	is string	<critical section>	= ""
+      
+      // List of files by type
+      gsFileList		is string						= ""
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x4811ccc000d69d6c
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

@@ -1,0 +1,977 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_DisplayFolder
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_DisplayFolder
+ identifier : 0x238f089c1bbe9cea
+ internal_properties : CAAAAAgAAADPaSOq7jztHbdICRdMPcsNXgnxtYxdYVVKfcKKcm+0MvNQFMCvGw79/Ms7Mr70azTZGKlG14lpRI0nN1O/cQiYqJnJSBu+PgfLcY/HwG86pnOdLuovOdxHCVuwIFkCikwWy2JgdWVB369H1Rrm/bUuC2ANQcgthXN9N23/K5dZzFrSMGkBvUEviiX13OnhiFDwa9YFrCfjk1zL2vy++JZdsHcXIUmPovit7mZ6T26rtKdj5TqZcqbiEJaN0eznjPkMCGdeKo8X24MmLudxpYb/cnaXTdlIoY5h3KkGSMiZe76CqWDdyYJFumU8eNv5ns5tBAx5sGHx67c6KCdeqVXm60WwSabZw2K/W6yHi3YJnQqjkCMl5F5EzfnHbgGGUnOfDAXMlOuTfaRPnCx+CLYqexSSeoKAI2TBT3fpo47xjxiL0d9b5VNVWMQQ0LF7nyPICpAmfi4D7S3DuQKDNetO2j/PDPxUKyV8uJwuEr7keLYoJn0CPJZiRqGfUeVcMhYkOjVrqpugo0XMIyi+CxNMV9kP+vOIxkO6ZnT++OETmIgBq5VTHeR5P2dv8RIa1nPBbPkB7HJsHLhKXeOVPrW+cPc6iMZgnXG6QzMo3DZjBiYuLPvmaokP+1BcdKGcHy1jTP23m6X+nDC4vI7Sv+vnQMEEYCDTYUn/2sp/gx8HB5ZN+q4V83pioVgsI4tVd8Kp51t51nIzKXvwQ6Sib5jyPrAmelSuqhJALEua5UCY0n8VFX35sV6D+DLGusFL/ynx7rnins1Rwpkv9Ui29k//CW8G5a80Y+pakzFIwWkittpe
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ controls :
+  -
+    name : LOOP_FoldersFiles
+    identifier : 0x238f089c1bc89cea
+    internal_properties : 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
+    properties :
+     x : 2
+     width : 317
+     height : 408
+    controls :
+     -
+       name : STC_Name
+       identifier : 0x238f089c1bcd9cea
+       internal_properties : CAAAAAgAAACPzwX2WvW3nghxUXT6OyTPZdfVUOTsL8QGb+Vo4HRAHBCeAGf8HF9r7kho09OcBX5HJ3X/bOHBlZ2A5a25M/L1XkEnX4QCt8QODztQEKOZWMBLfgeIQHKBhCB5E6eDN2HkhOtEySDez/hpMkUD25vLiP5REwbRAk1AU/HonfB/o2I9L1ywXGw75Z8wyd6iF9+vbLdNXQKgLjhmflbdRBDKIU7mpZl3VIjQOo8d24Spa8516SdOHcckegYPQGN/2fSUl4Z3Klsy+Et0RjwHW+o1OkIkxnFseo+KGPksReRP2GkfRBYllP0vGZgLljht1W2W0w/TbygXyuh/DvCoNKT+eZMCpdTWBSltD1MPTGET1H1M0jb/nsLX5gp9wCbWQ+oyoqxJ0Tqdsf3OHcBZtq7qLDswUweLP5Kub0jCaFZnLz1GRNuczyFvVR0RbiondPv1YKiB7nlnYIx+hg==
+       properties :
+        x : 4
+        y : 59
+        width : 97
+        height : 28
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Logo
+       identifier : 0x238f089c1bcc9cea
+       internal_properties : CAAAAAgAAAC5pUmPN8NSX1NETkJBM9I/ZnIeYWpwsFIoWopTr8RXwQMFQsUwSSrAT3v6SmhkXvCmxKvSi6HndgEavg/9kwNyEOfj/RFeGuKkIH6EGQt7E0E9IjDmhB7KM0PlL0c7kIkQnTrdf3d4F/iodMgCCfwXwZWZj7WaAAhO95q4gbjQOLcy6N8JBMP5UeREaGKyK2Pksr3vgg/JPjNMLM1F9BeYwucdAchQX1CUldWTxmCSdtteIzdFcYlLUfx/VZ+UuMZvTXgx6N6L1aan2HAb5wlOUgTwIjgxhb07tDv+IP/RwFW6DiBbrrMMEs9dmuqNgcczIB9nuSH0DFSoABLlWFM9jvsozSXET4TjWvp1PQLMSw36EX8aQDYLQKtl8f+De1ToCkYbjfOo9iitzS3uNCWMVhWJnwLToVVqhQboL2pWK28Ht3xcFbIV+JCqGDLJhO2onx5BbFd16V2FPzNYIszhsayldEhkT/R6e1RviRyiSTNVgJPKtHkeX79ZHpbR7+ysJLmBEJkOIqwYgxb3bEZsHYxuMChz8RZfNM1MKEgHUKPsGflZAFg5+BL9b4shp5BEXG2Bd6232VcqudZadmqWHdkmtWde+E++hf0LL1+Ys61IydFAz2A0x+HIMUyJJRl4r97rSr7sL7LBuK7MnRwQccAllpQ6iYYf1ciHSo9LkH022R7twsqDKGyh1AIa/Avowew87z4LgJ1k7xq+/teof+6I3csGYwlKxvxv1nVDCkl/NqgRhzLTDi/Fs/cxRw1uNl7UqTxGVKrBZ7fhp64MQU5eqh75ofUloNsW5Q2tylUkCIbHb9mO9B2EwCA=
+       properties :
+        x : 4
+        y : 6
+        width : 97
+        height : 45
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+         -
+           code : |1-
+            
+           type : 65659
+    columns :
+     -
+       name : ATT_FullPath
+       identifier : 0x238f089c1bc99cea
+       internal_properties : CAAAAAgAAADaOM50xILggs04dCmEQg2b+aenmP4/LX/MPYEc39n0p5o1y4DaS+iv2kWvZLblKtzY7DXVXuduvZZjNn9FPTN9L9TlsuHABc9czz+luDIMzQxopwGLzOwQzjz2PhgjIPu0/JupaSWefGY=
+       type : 3
+       content :
+        identifier : 0x2557a219060fc1d6
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Selection
+       identifier : 0x238f089c1bca9cea
+       internal_properties : CAAAAAgAAABqiL6ENDKQ0v0IJHkUsp3rCfcXKC5v3Y/8zdtAWY/m1iyN69TCuSStOh3L/qLn6JiY9pHB32RR7uUQYxCexILA+mk6WzqVLHr3L59pRFYc3TwY11E7HDzgnkyGrojT8MvkrMv5GXXuzLY=
+       type : 3
+       content :
+        identifier : 0x2557a2190611c1d6
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Type
+       identifier : 0x238f089c1bcb9cea
+       internal_properties : CAAAAAgAAADzwXfNbQVPFb5PYzpVa2RQwpA4ARcmJH7NfP6RZwdqVKBkMMQCv+CvqvlXUPZZovAgzNFxaB24S1Tt0OHvQ8l3DU5XPFsmtsPcIpJwC4+NzA1poBhiNVP55wXPZUcUMYolbQQw0L41lU8=
+       type : 3
+       content :
+        identifier : 0x2557a2190613c1d6
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         // Error case
+         if LOOP_FoldersFiles = -1 then
+         	return
+         end
+         
+         // Manage the selection 
+         if LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Type = type_Folder then
+         	ManageFolderSelection()
+         end
+         
+         if LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Type = type_File then
+         	ManageFileSelection()
+         end
+         
+         // Manage the visible options
+         ManageAvailOption()
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        type : 66049
+      -
+        type : 66050
+      -
+        type : 65793
+      -
+        code : |1+
+         // Multi-selection mode
+         gbSelectionMode = True
+        type : 65659
+  -
+    name : BTN_Back
+    identifier : 0x238f089c1bce9cea
+    internal_properties : CAAAAAgAAAA/abBN7K73PKxllNClMQaIfZHWSyd6EMfZHd0N/lELFCdhA+oSbx+ctrJk8aU2ehAiDi7wY9cWp0zfgaXxxkTob8TmVa93q7Aa4D6+yVfC291EFABddtOoxGjYvEgKVPKxVvw6VRjoy7TOTAEAVLL7rFISfjbXrrViPnrBgTFzs3guoDymUTfnRZ6Tahbgx0maok/VVkOFGUeNe32Kv1sGKB9CP6J7w88TKeg1EvK2Li0mEuXdTrb/gO5zlFCFXmQ/VZG2k6rnehgRwK+chQU/Jz4S8Nl/FszVniE7Ia7PB1ThEQNTi1FY90YBSnu9yszPTO6dfw6kuvKKSMfc8HTU9wRBHc2pWEX+YJkCp5evXFbyb+GkUBMUbxKgANmdDEjCzcYPVC8CLe5r75b2/Lk4FOb9UCpSV2/VthmITTaL98SzAs9Y5UxmXdrSSFvhgKNwL9NbqyO8KL0C83JvwMwrMOW5ByoYW1CbE8WLZPh/yHXQPE/XizkyEpeGZ+oSiWP4KDIYy0bgzYF39VXJ1mjdol4LHZEKsjsL/eOtzL3+ASVvaY4hQWjjr/0qckFngjhpo7bTfvoxKXorqnrF1HBL6Mqd91LDW7HwZ0hD8p9P2i1htP+R2jzIAC2nxF+UhDnATlsyZ6VrAluzWKaLfwXInOzBSuE1r07+Jya6J1e73VjbW7Yp9Hzb37BsDNTwNRRPoRaOvrMKUUL7eLXnKfyQSSe16RmYZPFpKu2/L2fHRHygUnDaopIQEpgSH3Y13uY1ws3FPvmQinuhgQqQHiONDdQlnke4NsQ6QbTf8haSmrzPmsB50q1P9bQKKVgKfM6PrWKbKZoSm0wYi8ZjSJxm5eK+zqwzLHxmfDMjXHZHKMQuWJm8yOG/z3VRrXOyAsMm3f74nUWbexU=
+    properties :
+     x : -347
+     y : -8
+     width : 162
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Manages the left sliding window to hide it if it is visible and if the return button was pressed
+         if WinSlidingVisible(swLeft) = True then
+         	WinSlidingVisible(swLeft,False)
+         else
+         	Close(WIN_DisplayFolder)
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x238f089c1bd89cf9
+  internal_properties : CAAAAAgAAACjTI4FcAUALbGgJmy+iCFCMGASnVbVp6s/d8Xsn/nGziw7u+1yehw0wTbek8H5Q8vLhBcHX9Lgucttpi79MWGlJn5RjA7Ktevbyi9cEw574v7uHXPYKMjpDq8IhFKtTIVRUlTfLKHkpauRm05Xb99ZQh/H1MyfKsjeWBiZ/7f2MPOfOzSTPYKjqZ6fxQE6nQVo/gF+5/n7naMq6beIsGGHXCpIBPkFv635eV/pJXUABh7+lagu5hecLdwv27R7yO7xHicOdT3LGCOwVZOwcMUsXmHHxc/RAxh1Ub3TutSSyXF+TZlfWrv/VWMNqZ7DuEyN6d3CbUGLWXV0yDuSTY4XM5V/VSpFRkvsLpK6WyN5jagRtkhl8ob1goACSHtxO2mrd4wjVQvsXrI9th60+Bsj86YIesLrgS5cwQpVhtSyiZCeMdSoifzgzAjvvBg=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      internal_properties : CAAAAAgAAAAS3fZWd1YdCDfWS26uA0wb70CVKRhhlJbNcz/rgXOOywPIUE3hgUdHwoITMXF+/7jzgGuz10P/9v1KeBOFHk3BWkUYRfCkjSJrCxiOW54LI7BPckv7a/c9Jbc1tKoNyL/ME6FVrcdSaQLrAw==
+      code : |1-
+       // Modifies the looper content
+       DisplayContent()
+      type : 239
+ menu :
+  name : _Menu
+  identifier : 0x238f089c1bcf9cea
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options :
+   -
+     name : OPT_Find
+     identifier : 0x238f089c1bd09cf9
+     internal_properties : CAAAAAgAAADa6AjXQf0KTmADJdKBNXLcPxpdV3HNpS2jb0CZQEh744rKpSCW0FwnDM1GkXDRV1D12FnAEJZ7U5tibLe4ydp8nmIRoaoHQVDgFndIytAXsiXoDeb3bTs3orTKONuqlA0mCH+2Gb0zUgs0nek8lxmiABUd6fgb4lQ62qHVnka74DqfOKhsUG9IFSntYbFNM0MTkX5Wq4NmgP9FgoCovbY2auG6eg1KeyeJsKo3zqAJaimF9TOpTI+9S84VTDFtDm6NO/FeQVs3vrdiwvfAnmCFphNzNvB2kSivwBvmEQgmQWCwjvIuYrU=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          // Enables the search
+          ActionBarSearchVisible(True,"Enter the file name")
+         type : 32
+   -
+     name : OPT_New_folder
+     identifier : 0x238f089c1bd19cf9
+     internal_properties : CAAAAAgAAACmTiaTOvfT3Mgd9Ce5/xPVU7t9dNT1lT7/BC/y3d37u75CqsD6PT3zd6kjt/NSsbeBB3QI4NipoPqaWn5mAEjiz2N1zPu9crpPJFKBmUyddRnEXvLpqHfGPQOtgGv78nuqFdiKRe78inws41SrNu5QLcVzSwPFKUxZCnjgdmR8UdVtUrFFPhonU4CTgzOs+XN4s+5tf5K2G2VtRIwKe5uZls1Pq2M7ACdeqQnrrk/o+lbbIdIsLUVceiVczC1E94elSU/XgM26bmim8L2UViFSr0xQ6BKg9eIQGqPIbp7nREn7Aqsi3RD5N4aUfDSR
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          // Opens the window to create a folder
+          OpenMobileWindow(WIN_Renames,"New folder","",True,gsCurrentDir)
+         type : 32
+   -
+     name : OPT_Rename
+     identifier : 0x238f089c1bd29cf9
+     internal_properties : CAAAAAgAAAAN6Lfgz8wMXkUxm7MmOBF9EXcMDwSAKlG2n53/2mJtTj0uJUPOnp+o3HVEUD0idT1+0wgHEVK1bx+RYS2S063zlR1/jTXK6t5rQ0gJ6WqbBX4jeNdIIwgWUcxHMvIy1nsJeqPNumnGdlbutX06uimhBPUMEIUSXmostFJL9jVDJ3AiFO8Y82Z4K1pxNjBcacs7FHPL8Im1hhlPfEjA69wXciAybiIUMhUeM1NS7WPbdqWwD8DTZQE8we2b9gCTz38eweGP1ZKvj0+wewlW1EFmPlOczXvo6tyl6wDYYAE1XkyCjg==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Retrieve the selection
+          sFile is string = GetSelection()
+          
+          // Opens the renaming window
+          OpenMobileWindow(WIN_Renames,"Rename",fExtractPath(sFile,fExtension+fFile),False,sFile)
+          
+          // Refreshes the window
+          WindowInitialisation()
+         type : 32
+   -
+     name : OPT_Zip
+     identifier : 0x238f089c1bd39cf9
+     internal_properties : CAAAAAgAAACgNFXpfO/Fil26kIDEbdFT3aBblATQbCxxz/yZA0lniTsVBGm2RZoUANwKY+UCLYpUTUpBHvQVjBNl1grTFojuqlV5ImtbOSGNCBI609pHgC6UzIPM7LvD2dGPl0s2mdIz7YynQCF3MhZAe60DhZ3ni2LCRcJy+AifFJ+3g9Fnz0BiCgeQElHOMplibBZp0wP5e/LrROKzqYC8uVkU4nDo98EnIsillqAwlhPhToBGmaws4+A79P7A0xkbV9VP5VYQhTuaLeo1rnUPDMTBEby/LJwDBwzsOyHpH+51F/N/nA==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAACbXULZJfffll9sD2q8R6j5m60cbOhNAxM36nu4+NXPJ8HkVuDrCNl9+EMDBJCe9e5/CjpwEHTeEJKZHPGshHLQua1Qp8EgtJS4+lZAovbM1lfVpI/WD6ITRCSxCMM1i3ARMRONTjiuAvTGZzw=
+         code : |1+
+          // Prepare zip
+          sArchiveName		is string
+          sFullArchiveName	is string
+          
+          // Type the archive name
+          if Input("Archive name?",sArchiveName) = 0 _or_ sArchiveName = "" then
+          	// We don't want to create any archive
+          	return
+          end
+          
+          // Create the archive
+          
+          // Formats the archive name
+          sFullArchiveName	= sArchiveName
+          sArchiveName		= fExtractPath(sArchiveName,fFile)
+          
+          // Force the zip if no extension
+          if fExtractPath(gsCurrentDir+[fSep]+sFullArchiveName,fExtension) ~= "" then
+          	sFullArchiveName +=".zip"
+          end
+          
+          // Creates the archive
+          if zipCreate(sArchiveName,gsCurrentDir+[fSep]+sFullArchiveName) > 0  then
+          	Error(ErrorInfo(errFullDetails))
+          	return
+          end
+          
+          // Add the selected elements into the archive
+          FOR EACH ROW i of LOOP_FoldersFiles
+          	
+          	// Element not selected, goes to the next one
+          	if LOOP_FoldersFiles[i].ATT_Selection = False then
+          		continue
+          	end
+          	
+          	
+          	switch LOOP_FoldersFiles[i].ATT_Type
+          	
+          		// If it's a folder
+          		case LOOP_FoldersFiles
+          			if zipAddDirectory(sArchiveName,LOOP_FoldersFiles[i].ATT_FullPath) > 0 then
+          				Error(ErrorInfo(errFullDetails))
+          				return
+          			end
+          			
+          		// If it's a file
+          		case type_File 
+          			if zipAddFile(sArchiveName,LOOP_FoldersFiles[i].ATT_FullPath,zipNone) > 0 then
+          				Error(ErrorInfo(errFullDetails))
+          				return
+          			end
+          			
+          			
+          		other case
+          			// Error 
+          			Error("Unknown file type")		
+          	end
+          end
+          
+          // Closes the archive
+          zipClose(sArchiveName)
+          
+          // Message
+          ToastDisplay("Archive created successfully")
+          
+          // Refreshes the window
+          WindowInitialisation(gsCurrentDir+[fSep]+sFullArchiveName)
+         type : 32
+   -
+     name : OPT_Copy
+     identifier : 0x238f089c1bd49cf9
+     internal_properties : CAAAAAgAAACOfgWPILpTKH0Eebb9Srkwn6Bowa4mHeXSg+SzkiA2Z+onUQAZ49lnw1HGMgXS/b0RR5PJPOVMXvLgK/s6gfulk+zhjFGTfvhZTJ33Z4bDwCh+VP+ZinglFAlc7T+QMN7cBqLUOl5/opc6GHKBLDHnB6vd9dR86yT0xUWjtKS9cBvFq6290c1S2UfD0gUTrVzu4hVvIeT2WVh40Mk8F1sgTnAkvbtchW4shg6eiLuQYhx2QVIbSG7JuXc2jQuVY/rfmjUhCeC0UqcA9/HfanCl3uGmKxclQ7s2KK+vU9KliUW08jblNtp1CjJ5yuzVVEIfjSfzHmSS2vsZcik=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Switch to copy mode
+          gnCopyCutMode	= Copy
+          gsCopyCutFile	= GetSelection()
+          
+          // Cancels the selection and enables the Paste button
+          CancelSelection()
+          OPT_Paste.Visible= True
+         type : 32
+   -
+     name : OPT_Cut
+     identifier : 0x238f089c1bd59cf9
+     internal_properties : CAAAAAgAAADsfvSEvYsXd9qpFm/qE92VbHCo2nBJKYqmIt+a2qo7uW8b9YbBaaUtmFkCEmMwDmmzB6ufUdJx8Yuofq7qU+QrcLTHDOENPsXT9A5mIKEhzUmjG9F5CgYyJ+BlRAoQgOFLdChilARUM6LMgVPmZeItriEGOsbFslquEPw2wnPEqNnwEParHgw/y04VkP6PByeyajB43XuN+9UzwdGxX/cHGuq1zBI44xowtfv8XzJSNGXJ5ns+lAgOUYGW1nl+mi944tFS9JLJRLLoCi3dG+qY0F71N2j/+M5TKnDWVkwggr5jfIgQwQwd6/k7aYVDCaiZdOJkn/g5RFO1XQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Switch to cut mode
+          gnCopyCutMode	= Cut
+          gsCopyCutFile	= GetSelection()
+          
+          // Cancels the selection and enables the Paste button
+          CancelSelection
+          OPT_Paste.Visible = True
+         type : 32
+   -
+     name : OPT_Delete
+     identifier : 0x238f089c1bd69cf9
+     internal_properties : CAAAAAgAAADxjXeInZq6VJMjNGIxPXOh7ToHfmCvFsr17Ae5ZQ0uT/TW0jT1uLS8WqGNKYu4q41Qo885WqrTfDZcEgM40Xzcu+8ngpvnHMNOeF7+uWk55UzI+pgn1B5NnoG72wMmw+LkJwNjj4f82oMmt5+1UGmTqogJVqJpk5BQRerRgwhiVEMQMdHLHi+Ow11xToPfMHbg0LQXOXhCZI34oE55QiNMfRBlnudj96nQOFvm4O662VL+2rpQmNrIIxxnGofKAqJ/Q8R/ps2wHQe9Z2V9s0zzadvle1QzYyQbBjJG2xDw54yhiF/V
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // User confirmation
+          if Dialog("Delete selected items?", ["Delete","Cancel"], 1, 2, dlgIconQuestion) = 1
+          	
+          	// Delete everything that is selected
+          	FOR EACH SELECTED ROW of LOOP_FoldersFiles
+          		// Delete each element
+          		ElementDeletion(LOOP_FoldersFiles.ATT_FullPath,LOOP_FoldersFiles.ATT_Type)
+          	end
+          	
+          	// Delete double CR
+          	gsListToDisplay = Replace(gsListToDisplay,CR+CR,CR)
+          	
+          	// Displays a message to the user
+          	ToastDisplay("Deletion completed")
+          	
+          	// Refreshes the window	
+          	WindowInitialisation()
+          end
+         type : 32
+   -
+     name : OPT_Paste
+     identifier : 0x238f089c1bd79cf9
+     internal_properties : CAAAAAgAAADIGi0l37qhM2g4YAWO+mfAXYlgB+5HGF4zrXEZhNlHTATZMBRfS5nrIyCHwRX5OETY73SOTE1CE35AuczykVU4nkyXvAwEYOxfeUjYLx2wBB7inj9qYYhJrZ5zZoxIVmKG1lhizU0uGQ2A6meQ5Hm781Iv/QRxNEwBvwi6hkOIG8qgk6xiJ9H554l9v/ShIiyqLMVVHUnNEJZpHRiT+hlWEt0IsKulnaqscImcS0lRsuF0sESsQ+GX3vIKi/NBDbxb/BMF63M5h3Qh3nw/ME82FCR4JtXkwLUW4lptNmD2o0iiyt3ASw+AtCkeJhkZc27dimr6mFa1utcfP/cT
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          // Disable the option
+          OPT_Paste.Visible = False
+          
+          // Perform the proper action according to the selected option
+          if gnCopyCutMode = Copy then
+          	if PerformCopy = False then
+          		return
+          	end
+          end
+          
+          if gnCopyCutMode = Cut then
+          	// A cut is in fact a copy/paste then a delete
+          	
+          	// Copy 
+          	if PerformCopy() = False then
+          		return
+          	end
+          	
+          	// Delete
+          	for each string sFile of gsCopyCutFile
+          		
+          		// Deleting elements
+          		ElementDeletion(sFile)
+          	end
+          end
+          
+          // Reset the window
+          WindowInitialisation(gsCopyCutFile)
+          
+          // Reset the information of copy/paste mode
+          gsCopyCutFile	= ""
+          gnCopyCutMode	= NoOperation
+          
+          
+          	INTERNAL PROCEDURE PerformCopy
+          		// Browse all files to perform the copy
+          		for each string sFile of gsCopyCutFile
+          			
+          			// Error case
+          			if sFile ~="" then
+          				continue
+          			end
+          			
+          			// Copy the directories
+          			if fDirExist(sFile) then
+          				// Create the directory
+          				fMakeDir(gsCurrentDir+[fSep]+ExtractString(fExtractPath(sFile,fDirectory),1,fSep,FromEnd))
+          				
+          				// Perform the copy manually
+          				if fCopyFile(sFile+[fSep]+"*.*",gsCurrentDir+[fSep]+sFile,frRecursive) = False then
+          					Error(ErrorInfo(errFullDetails))
+          					return False
+          				end
+          			end
+          			
+          			// Copying files
+          			if fFileExist(sFile) then
+          				if fCopyFile(sFile,gsCurrentDir+[fSep]) = False then
+          					Error(ErrorInfo(errFullDetails))
+          					return False
+          				end
+          			end
+          		end
+          		return True
+          	end
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      // Operation in progress (copy, paste, ...) - Constant defined in the project initialization
+      // Path of files that are copied/cut 
+      procedure MyWindow(gsListToDisplay is string, local  gsTitle is string= "Explorer", local geCurrentExtensionType is EType = empty, gbDirMode is boolean = True...
+      ,local gsCurrentDir is string ="",gpCallBack is string = "")
+      
+      gbSelectionMode is boolean = False // True if we switch to multiple selection mode
+      
+      // Title of the window             
+      WIN_DisplayFolder.Title = gsTitle
+   -
+     code : |1-
+      // Initializes the window
+      WindowInitialisation()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+     code : |1-
+      // Callback when closing (in order for the previous window to be updated)
+      if gpCallBack <>"" then
+      	ExecuteProcess(gpCallBack,trtProcedure)
+      end
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 220
+  procedures :
+   -
+     name : ManageFolderSelection
+     procedure_id : 1409354674524364010
+     type_code : 14
+     code : |1+
+      // Summary: Manages the selection or the start of an associated application
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ManageFolderSelection()
+      
+      // error case
+      if LOOP_FoldersFiles <= 0 or LOOP_FoldersFiles > LOOP_FoldersFiles.Count then
+      	return
+      end
+      
+      // In selection mode, add an element to the selection
+      if gbSelectionMode = True then
+      	// Color the selected element
+      	LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection = not(LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection)
+      	if LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection = False then
+      		// Delete the selection from the selection
+      		LOOP_FoldersFiles[LOOP_FoldersFiles]..BackgroundColor	= Transparent
+      		
+      		// if no selection
+      		gbSelectionMode											= CheckSelection()
+      		
+      	else
+      		// Select the additional element
+      		LOOP_FoldersFiles[LOOP_FoldersFiles]..BackgroundColor = DarkGray
+      	end
+      else
+      	
+      	// Re-open the window with different parameters (used to get the activity return via the return button without having to code anything)
+      	gsFileList = ""
+      	ListType(geCurrentExtensionType,False,LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_FullPath)
+      	
+      	while gsFileList = ""
+      		Multitask(-10)
+      	end
+      	
+      	// Empty 
+      	if gsFileList = "__-1__" then
+      		Info(<§$0001§>)
+      		return
+      	end
+      	
+      	OpenMobileWindow(WIN_DisplayFolder,gsFileList,LOOP_FoldersFiles[LOOP_FoldersFiles].STC_Name,geCurrentExtensionType,False,LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_FullPath,"ManageAvailOption")
+      	
+      end
+     type : 458752
+   -
+     name : DisplayContent
+     procedure_id : 1409354674524429546
+     type_code : 14
+     code : |1-
+      // Summary: Displays the content of gsListToDisplay variable in the window
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure DisplayContent()
+      
+      // Clear the area before displaying the content 
+      LooperDeleteAll(LOOP_FoldersFiles)
+      
+      if gbDirMode then
+      	////////////////////////
+      	// DIRECTORY MODE
+      	///////////////////////
+      	
+      	
+      	// Array containing all files/folders with the information for their displays
+      	aaFolder is ASSOCIATIVE ARRAY of int
+      	
+      	// Get the folders containing the files
+      	for each string sFile of gsListToDisplay SEPAREE by CR
+      		if aaFolder[fExtractPath(sFile,fDrive+fDirectory)] = 0 then
+      			// New folder
+      			aaFolder[fExtractPath(sFile,fDrive+fDirectory)] = 1
+      		else
+      			// Existing folder, add the fact that a file is in this folder as well
+      			aaFolder[fExtractPath(sFile,fDrive+fDirectory)]+=1
+      		end
+      	end
+      	
+      	// Add the folders
+      	for each nValue,sKey of aaFolder
+      		
+      		// Error case
+      		if sKey ~= "" then
+      			continue
+      		end
+      		
+      		// Check the search
+      		if ACTB_ActionBar.SearchValue <> "" _and_ Contains(sKey,ACTB_ActionBar.SearchValue,IgnoreCase) = False then
+      			// goes to next element
+      			continue
+      		end	
+      		
+      		// Get the name of the folder containing the files
+      		nAdditionSubscript is int = LooperAddLine(LOOP_FoldersFiles)
+      		
+      		if sKey+[fSep] = SysDirStorageCard()+[fSep] then
+      			LOOP_FoldersFiles[nAdditionSubscript].STC_Name = "Internal storage memory"
+      		else
+      			LOOP_FoldersFiles[nAdditionSubscript].STC_Name = ExtractString(sKey,2,fSep,FromEnd) + " (" + nValue + ")"
+      		end
+      		
+      		// Fill the information
+      		LOOP_FoldersFiles[nAdditionSubscript].ATT_FullPath	= sKey
+      		LOOP_FoldersFiles[nAdditionSubscript].ATT_Selection	= False
+      		LOOP_FoldersFiles[nAdditionSubscript].ATT_Type		= type_Folder
+      	end
+      	
+      else
+      	
+      	////////////////////////
+      	// FILE + DIRECTORY MODE
+      	///////////////////////
+      	
+      	for each string sFile of gsListToDisplay SEPAREE by CR
+      		
+      		// Error case
+      		if sFile ~= "" then
+      			continue
+      		end
+      		
+      		// Check the search
+      		if ACTB_ActionBar.SearchValue <> "" _and_ Contains(sFile,ACTB_ActionBar.SearchValue,IgnoreCase) = False then
+      			// goes to next element
+      			continue
+      		end	
+      		
+      		// Addition subscript
+      		nAdditionSubscript is int
+      		
+      		// Folder or file?
+      		if fDirExist(sFile) = True then
+      			// Folder
+      			nAdditionSubscript = LooperAddLine(LOOP_FoldersFiles)
+      			
+      			
+      			// special case of internal memory
+      			if sFile = SysDirStorageCard then
+      				LOOP_FoldersFiles[nAdditionSubscript].STC_Name = "Internal storage memory"
+      			else
+      				LOOP_FoldersFiles[nAdditionSubscript].STC_Name = ExtractString(sFile,1,fSep,FromEnd)
+      			end
+      			
+      			// Fill the information
+      			LOOP_FoldersFiles[nAdditionSubscript].ATT_FullPath	= sFile
+      			LOOP_FoldersFiles[nAdditionSubscript].ATT_Selection	= False
+      			LOOP_FoldersFiles[nAdditionSubscript].ATT_Type		= type_Folder
+      		else
+      			
+      			if fFileExist(sFile) = True
+      				// File
+      				nAdditionSubscript									= LooperAddLine(LOOP_FoldersFiles)
+      				
+      				// Fill the information
+      				LOOP_FoldersFiles[nAdditionSubscript].STC_Name		= ExtractString(sFile,1,fSep,FromEnd)
+      				LOOP_FoldersFiles[nAdditionSubscript].ATT_FullPath	= sFile
+      				LOOP_FoldersFiles[nAdditionSubscript].ATT_Type		= type_File
+      				LOOP_FoldersFiles[nAdditionSubscript].IMG_Logo		= getImageAccordingToExtension(sFile)
+      				LOOP_FoldersFiles[nAdditionSubscript].ATT_Selection	= False
+      			end
+      		end
+      		
+      	end
+      end
+      
+      // Manages the options displayed in the action bar
+      ManageAvailOption()
+     type : 458752
+   -
+     name : GetSelection
+     internal_properties : CAAAAAgAAAAaK7Us+9akReI0dZwbDf+osOfyPwKBZXT1OQSovM3oBWr1dTvLXW1steDVnaQ87u9I3bFSKjrIry7cod1MT25hPDoaI32TgiXiZdNgoH8UqXb7somO2W7DwSkeTRBv/Dt+A1X4vxSxFtNWPqXB
+     procedure_id : 1409354674524495082
+     type_code : 14
+     code : |1+
+      // Summary: Retrieves the elements selected in the window
+      // Parameters:
+      // Return value:
+      // 	UNICODE string: list of selected elements
+      //
+      procedure GetSelection() : string
+      
+      // Get the selection 
+      sSelectionString is string = ""
+      
+      // For all the elements possibly selected (the looper)
+      FOR EACH ROW nSubscript of LOOP_FoldersFiles
+      	
+      	// If the element is selected, add its full path to the list
+      	if LOOP_FoldersFiles[nSubscript].ATT_Selection = True then		
+      		sSelectionString+= [CR] + LOOP_FoldersFiles[nSubscript].ATT_FullPath
+      	end
+      end
+      
+      // Returns the selection
+      return sSelectionString
+      
+     type : 458752
+   -
+     name : ManageFileSelection
+     procedure_id : 1409354674524560618
+     type_code : 14
+     code : |1+
+      // Summary: Manages the selection or the start of an associated application
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ManageFileSelection()
+      
+      // error case
+      if LOOP_FoldersFiles <= 0 or LOOP_FoldersFiles > LOOP_FoldersFiles.Count then
+      	return
+      end
+      
+      // In selection mode, add an element to the selection
+      if gbSelectionMode = True then
+      	// Color the selected element
+      	LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection = not(LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection)
+      	
+      	// If the element is already selected, then its attribute was just switched to false	
+      	if LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection = False then
+      		LOOP_FoldersFiles[LOOP_FoldersFiles]..BackgroundColor	= Transparent
+      		
+      		// if no selection
+      		gbSelectionMode											= CheckSelection()
+      		
+      	else
+      		// The element was just selected, change the background color
+      		LOOP_FoldersFiles[LOOP_FoldersFiles]..BackgroundColor = DarkGray
+      	end
+      else
+      	// Otherwise, start the application associated with the file
+      	ShellExecute(LOOP_FoldersFiles.ATT_FullPath)
+      end
+     type : 458752
+   -
+     name : CheckSelection
+     internal_properties : CAAAAAgAAABNBHXZcw3iE9CoRWv0llX1TieUF9jim4f/mbOB1z+l+nqn7fo9lONUWlrekykE6fTbl+GH9F26N0Ch1fZ/r3fcuRUBudAnwe9dnnrPOcd23TdsFXtFF2gp3YoEv1y8o9EPEbBnBjqPijqljjSUl5IMJ2V9u/245Vo5wnYfqufCQQ==
+     procedure_id : 1409354674524626154
+     type_code : 14
+     code : |1+
+      // Summary: Checks the current selection
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if a selection is in still progress
+      //
+      procedure CheckSelection() : boolean
+      
+      // No selection by default
+      bSelection is boolean = False
+      
+      // browses the looper
+      for i=1 _to_ LOOP_FoldersFiles.Count
+      	
+      	// A selection? 
+      	if bSelection = True then return bSelection
+      	
+      	// Retrieves the looper attribute
+      	bSelection = LOOP_FoldersFiles[i].ATT_Selection
+      end
+      
+      // Selection? (useful for the last line
+      if bSelection = True then return bSelection
+      
+      // no selection
+      return False
+     type : 458752
+   -
+     name : WindowInitialisation
+     internal_properties : CAAAAAgAAADWd4ewp3R8xWJ0dVw7Td9o8IcyP+JhpbQ1OQQoHI3IxeoVdXvrfa3sdaBVnYT8Tq9I/TESCtoYH74skW08n54RjKrqsw1jEhXydYOw0M9EWYYrQhne6X5zUblOXUD/7CtO86UIjyTpnAVA8ukN
+     procedure_id : 1409354674524691690
+     type_code : 14
+     code : |1+
+      // Summary: Initializes the window 
+      // Parameters:
+      //	sNewFile (UNICODE string - default value=""): New file to add if necessary
+      // Return value:
+      // 	None
+      //
+      procedure WindowInitialisation(local sNewFile is string = "")
+      
+      // Retrieves the elements possibly added by the previous windows
+      gsListToDisplay+=[CR]+sNewFile
+      
+      // Displays the looper
+      LOOP_FoldersFiles.Visible = True
+      
+      // Displays the content
+      DisplayContent()
+      
+      // Manage the visibility of 'new folder' option
+      OPT_New_folder.Visible	= not gbDirMode
+      
+      // Manage the selection and the available options
+      gbSelectionMode			= False
+      ManageAvailOption
+      
+      // Deletes the global selection
+      LooperSelectMinus(LOOP_FoldersFiles)
+      
+     type : 458752
+   -
+     name : ManageAvailOption
+     procedure_id : 1409354674524757226
+     type_code : 14
+     code : |1+
+      // Summary: Manages the available options according to the selected elements
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure ManageAvailOption()
+      
+      // retrieves the selection
+      bSelectionStatus is boolean = CheckSelection()
+      
+      // Updates the visibility of options
+      OPT_Copy.Visible	= bSelectionStatus
+      OPT_Cut.Visible		= bSelectionStatus
+      OPT_Delete.Visible	= bSelectionStatus
+      OPT_Zip.Visible		= bSelectionStatus
+      
+      
+      // A single element can be renamed, adjust the visibility of the option according to the current selection 
+      sCurrentSelection is string = GetSelection()
+      if sCurrentSelection = "" or Contains(sCurrentSelection,CR) then
+      	OPT_Rename.Visible = False
+      else	
+      	OPT_Rename.Visible = True
+      end
+      
+      // manage the copy/cut/paste mode
+      if gnCopyCutMode = NoOperation then
+      	OPT_Paste.Visible= False
+      else
+      	OPT_Paste.Visible= True
+      end
+      
+     type : 458752
+   -
+     name : CancelSelection
+     procedure_id : 1409354674524822762
+     type_code : 14
+     code : |1+
+      // Summary: Cancels the current selection
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure CancelSelection()
+      
+      
+      // Cancels the selection
+      FOR EACH ROW i of LOOP_FoldersFiles
+      	LOOP_FoldersFiles[LOOP_FoldersFiles]..BackgroundColor	= Transparent
+      	LOOP_FoldersFiles[LOOP_FoldersFiles].ATT_Selection		= False
+      end
+      
+      // Reset the information
+      gbSelectionMode = False
+      ManageAvailOption()
+      
+     type : 458752
+   -
+     name : ElementDeletion
+     internal_properties : CAAAAAgAAADPhiWBnBNydAKtqnIlbfbkPOlVU63IfoQcsGDQMqYBIByDQdPQ3BZLB4kQmIVW+AlEvZSTiach+dci4RQeG8FczXBxTf6ifi6vBaAstS37frM197WtjKE8pemkAkiCDnAV7Hw/5HViE+gLGW/jeU0PcecMqKjFgfNpFx5jlAJ4
+     procedure_id : 1409354674524888298
+     type_code : 14
+     code : |1+
+      // Summary: Deletes an element
+      // Parameters:
+      //	sFullPath (UNICODE string): Element path
+      //	sType (UNICODE string - default value=""): Type of file
+      // Return value:
+      // 	None
+      //
+      procedure ElementDeletion(local sFullPath is string, local sType is string = "")
+      
+      
+      // If unknown type, check whether it is a folder or a file
+      if fDirExist(sFullPath) then
+      	sType = type_Folder
+      end
+      if fFileExist(sFullPath) then
+      	sType = type_File
+      end
+      
+      // According to the type of current element
+      switch sType
+      
+      	// Folder
+      	case type_Folder
+      		
+      		// Deletes the folder recursively
+      		if fRemoveDir(sFullPath,frRecursive)	 = False then
+      			Error(ErrorInfo(errFullDetails))
+      			return
+      		end
+      		
+      		// Deletes the element fom the list to display
+      		gsListToDisplay = 	Replace(gsListToDisplay,sFullPath,"")
+      		
+      	// File				
+      	case type_File
+      		
+      		// Deletes the file
+      		if fDelete(sFullPath) = False then
+      			Error(ErrorInfo(errFullDetails))
+      			return
+      		end
+      		
+      		// Deletes the element fom the list to display
+      		gsListToDisplay = 	Replace(gsListToDisplay,sFullPath,"")	
+      		
+      		
+      	other case
+      		// Error
+      		Error("Unknown type")
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x181af22b00259616
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : No file found
+     index : 0
+   -
+     text :
+      en-GB : The directory is empty
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

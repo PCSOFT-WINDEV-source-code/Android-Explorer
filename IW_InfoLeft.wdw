@@ -1,0 +1,378 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_InfoLeft
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_InfoLeft
+ identifier : 0x238f089f214da7c7
+ internal_properties : CAAAAAgAAACTSt2u7JRSHZEp6ZL9sCPnXvIkN0Ekj3Rj50T+FMZefV6iSOL09d9y+8990jgdaTf31qlMruYWOKMMApFnTv2p9srpA78r6OqGBrFMxTq+XnmP46OzVObDCa2XtrUJAPaF5Q18Hb+orXxRr4fV9M2cBDpIk6b+C3hLfbEuV2u7Ft+AXOdI1m2yAAspfwdLWzPN8t+VxA1j081bucPtu7gwgZQ2HObq8EinxU5G0hd1pU69y0WJmhLdIa8+LUK6aXz6X8PkkpR8LqhDc477zU7fr7+ItVq1Ccx9J6JDLsGKj7AErNa2cMnK7ptSzPp7m8mm7NkF+rvBF+vZ+vH3M15prEXJK+rEFyEMEzdQ9nPv6/xjCUsCZGfaNKZBmFCeBE/IA9sMEB730zCsHDq11wOnOs6fIEywzn0V8SUqlXcVdae35YQ2KAAJJa9x9uyZdIheozP5s1qd+Csb8L5l6D+MBwMTQYU77RveSlBfJeAFqwMxYoIUW2bQ7uxG3Kn4Y2Rfir6gVd3YEvByNob+K9UHOtuFiQdloxo2NFNNNH4lPwiskppcmaL0Od0SJpykhQBjgz65BpNPoRin7RM/sCXp09oMMAEk6rIY2iZgCRRPo0erzd9JF8rr3B7qFryv4W0lSSBYs3Q1IIdjnfkQzZ9oI1aBku7nSVXgWjuJLva5DX7eLcgwHFkBKJxinaF2QaJzeZllZPNQ0tOFNSehXnyfdq1hrPYW60s1TUxFdX06yIxws+dMw0iKbBsyiHsZLY/BT8PgORQGklv3
+ properties :
+  width : 240
+  height : 480
+ controls :
+  -
+    name : IW_InfoLeft
+    identifier : 0x238f089f214ea7c7
+    internal_properties : CAAAAAgAAADiAnxlnuOX73gSWuTd3xdcjTFLHmJkWEBdKGRgDarS2r+rr69ULEh2D1KQDPwSdS6/PCxyePLYj1+LV5QUPUnx19J6q54/FJf6Jjr8nTiJwRm9Oiwpytv23+sQ0HetgJLgbxQMQXNRekkr5s3crljQLqPFeQg2D2MudJENxyHkkWupIjT+VCMix8FPYhWF1U91azSirZnKdOVeran2spkNkg8nyOCMgXnhkvmf/DmArlBYNpM/My8sYW1WowaUy73rZfahUEhRFZJvfNTqqRU92tgscctwlQLluGN+3YWy5rjqePfhr/ZHNlQe0C4MIyIQmbQjMjL8qIG1FQJTsZdbu+d4CHWZk3bAzoyDn0zbxPOqj4Ghf/6CT9hi1S/U8JmY+g72U8JXctGWPljVVxbB9YzpMh9/36If58INRoNuxbQ2cUyRqHGf1a2eYrUComzTEKUdGC/QsbJgQrNG6XtB25WGGA3l4s93DJnWAax9eh0Wjo9Evvk=
+    properties :
+     width : 240
+     height : 480
+    controls :
+     -
+       name : IMG_NoName1
+       identifier : 0x238f089f214fa7c7
+       internal_properties : CAAAAAgAAACadvNgyLMZ52cfJ8j+LTioKTE4SeyzCxbE0UYeJBEKcAZzXcT+3gFpBf62fkPS67EY/HzYxQtJTrYn8xPSvWUjFYzbvb1feNZqgV8V1YJtIOWqPlmeAxYwxLZgOn+/4zBHrZ+fKxdc7fB+oZwzm5xwcz8hBSiqTATEziXIJfoWObSktIDGpCdpy1+Q0lgeYkH1DyXDc3LYUVVrTE8/9RR+rMfXfQZpMYZwjOtTPn3WeqHBHhQLqEh8W9EjqAMbttiNpAFZ9kqaw9ecdn5TonRubmWJHUq3x1qwZ4IeMPacN66CIITa8s3p3yvn68y2GEBa5ElM2thCtSh60CCr33bMq0GRKdBv1jAY79hdKuspvEVjMOr15fs7A0bqGdpFzuOXUrI/xorXeUX4Ilj96xv8LDqTDeCrmJgcF+Z1oo7hO5m9oFKm/JQCYI0PmYhATOiofw0Hb54Pt+3JeMMFaUq5A9gXBZpURWcFbkb/JVfZonrfTyIeyuyfYruTg5tm5+gWAIo56aLpAwV+oFnEkdtJYs+lC+cUvbfpyb28Tqdb1fX711H31NiyhoRnGTOdA8DIeeupD3EnP99REzW3XRTy/oJjQMx1PLxxcjXZT+MtHhS+ko6vWEIXrWCrDVhHEBK+4cmI/HeD9L4wBKcO4oCazqmg5SkL/n/0czvB6TMY572vWkNBbG+ItehDHwIrStROC9ShtuciT8RugbrEgCoHKq8r5VfwwsbtXdLTMD4fYH0p8FuIIiVk3RRo503QbJmvaw==
+       properties :
+        x : -1
+        y : -1
+        width : 246
+        height : 130
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_Home
+       identifier : 0x238f089f2150a7c7
+       internal_properties : CAAAAAgAAADOawc4CfynCP/pcI+Z822S6/oEpk1tiDwJBxjI7l0bfwnxrZDOZyB+Oq+dhDbRwN87t7JSDaD8zx7I6YUSERz+5rtDVCSa9oy7unUEUwyxfqMqnGsdPz7qni0mubAEA7zZemg43bEXtwqbKCwd9XGnp7zp2lS1Xc6yTCthFDZBDTrEgWGD05hV57RyDR+Vom0i+3HB69aSJja4cGjMlvccRky5QuI1PFvn+ybUIiOz4kSKcZxZ7XIm8lt4VWYgMICKzSJTgqxtvvoysccUYWWhhqxK+eY3dClUpGB6VudH1xQmZEHVpzsl7qv1rc59h8oqYIi5AbALgPJ8ZE/YtU/kk8bUX0EcpTzYRZ315zBznvqGbjbNbKndcutEZxRz4+lgb5TL6mptJfPBWVeAKrOIQSc8QuUlY0B6HW2odO+1kbKy6/l0BZ8MKSHVhm3YJ2IV38hzECP8g7fviIvCKPs+qoz+jQ/jNKAG2cq/MerY7JKZgXHdx0X1XKmJPMvfyhe+LNI6pnDguALVOqkkLeZyzTMFaxSIMDSHgNYbSY1FVF7/iKhiZ1ayS2YSthmrwcA77HgsUpd+VTH+8SXuWKWpQekbFHh/PgqDFz3iwqXiYwEEleFlJ7O780YEAGFJ0mojdy48VADyi4Z6ZC+msrnilW3DDgfbPyZcP93vXj+GD/7WVwSGg9xQ4QwGnCW6Z8tKWqIuW4c4m1jQE2NJSelN4G5Hyp9/j0Phk3vV/T5JcCckOUcXgdvQ4CPrNRkAOvRyCZOpjp46xcErxk8qXuc5j3Eel8Uoaq8/W+qs++M+b+4lrDSr71nQnKbSEiyKOZARQ5mWohy6iTNe+9F8kwR0FMH4YpF8w6h/KSb3hhNW5MzkPcRwvdk4znjtmiTiJQOf/kpeF/UBdiSKS8LqEgNPdAilK3xwPCQRCUV7INKMIZHlp2FrHiU1zuXtvtSx433O5qX1q6d2bKiNOpWNQRHQca2LYqTGThq8ZlzHwLL0X7ZDpiCen8dG
+       properties :
+        y : 129
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Back to home
+            OpenMobileWindow(WIN_Home)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_Home
+       identifier : 0x238f089f2151a7c7
+       internal_properties : CAAAAAgAAABYIb38Z9SFYtSesyym6ciLdS0oCD7Ne/ZMrIcopcLQpYEo5OkVgHpNX5oUA5+jPvsJIYbzaZuEXyZWd49YMvsFWxYLUzUk3oyek9lp/LCJ8XbjluiZCqZukCQFM9TiY2njy/UxHd52/9RGtkfYNHGbRi8kOOjyOh17YJv/BMSPACjD9Nf3vVafNe1lxj72YAqWy6nM7Y6FC6TwA9xoEJ8Dkoz5NnvAICgmTiN9+DWDVWaNsezPOW1DXPMg8uxcXyJj7KcEeI/z6i3SkgJwJn8iYOKJ/4hfPzACmPOD6cwMExkQ89pBK88Vp/+eN2kQkGk+FbRIwPBY2KXC3NAh1uRA0osLnBr1/qTFVfRemhqCD4cvZyXBronwcqiTJVuoVAR1c3TJO9cfQfqerkdHAaqrCpkPvW5qPM/yslCV9cv/c/GkezTQV8EgoOLxSf2MXnW45q0Nunj4MslvHQoCdNjbDmXY2ytn6Ck+DpBgzGJvOIXUByoKjgPKltSeGTxHT7x21UOVCXJyOLM9UoO6Q5RIwlgjPjx31cEtej4LLMiOnbI1VKwfG8465yv/mSZhMQDQcQ37KeRl3OfC36l5ec/76Rm1s4xtwmFDI+lEaZjt5anahAMfwEkJT5rJz8SV6v1oaM68u7YjI2GJQAxnQeVE2/xAYniBRReG8mOArHE1XoGVKdw2YYnxBth2pXRmr3jgXDu2CSCqfQ5ORW0gHZMAbHNiopgZ8OITkJnqJwo+qWQ3zCQ7MgmO24jiXcUZtGM51htu8AGUg61+54mNDN53XyrWb7zI7ccP2TvYhLNdkvbqtKK/+oSQPnVPo/1TVzckBARGQ2s/eeapryUM580bjBNUg8ZGSCDfCSgx4VWv
+       properties :
+        x : 15
+        y : 141
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_Images
+       identifier : 0x238f089f2152a7c7
+       internal_properties : CAAAAAgAAAB0Orij9gNB/GAKPdZ0EIM2o6XeH0z6vCmfYS/g+Y+DU7R9OhF79JIWdt6xUBSYu9xJWBT/xK75a3FXPdS91C6GNZCqOHD/+ryklwLOMKPMkHR+To+q8InJgIIya/pEGbEtYlfnvwHhfba0XZQ9vDkegsKW3/B1umTaRmdwljB5A+W2T/Kmw+el90D5PAsLCkq9pB/o5HvvcJEhc8VZlsx/SKF4O2DCeKENUub3vYc8/ZJzGLMoqb7HUB+I9Oqg8z6rGRSJsWdWOVyFsNvD2bR0Bb+bBjU+paAYO08jjL/d4ptEm8WvAkaMxruE1W8D7uhMmCkVHGeybY2uio68uokSJX2fZSgvt8zqkCE/0RJrLPd8e2aw35gdVm+ZiI2Eu52RHCNzU8pJ6FhPm8KwCXEqvtDptNquE6L8a5rZ+eAb1Hz2Pe/DiBC5whyi5CjxngXx869n3AWKRam4DfE7bKtBehD54XsE6W7SfiDon/wZfDTAoOIs/Kt/AQs5aUn3F2aT3Dtf4QhP7MdL7aTI3G5BjdskwSDzix3smoO4xoW0oNBWwwyQOXQnNHyMLaSI5M4tkfUmUbTYaRN271K1jUxg5UWJxt545PmmM/+FdJ7YhzzpagdvZO2RJ81NOt0wFiLMNvOdPr6WFbkPFPK7o2D7Mb45flEeg23ID3ntySUSYLal+59qVZ54Vby1H9rqTNWJYh+f9SR9zRq6raaMl7IvbQ6SS9/tn7JLyyJbBEm7kXaPbhJELs8n3MTcef8i9m2/ATQMqraCHHwvuS8KmsY7I4Ss6Mc9jjQOMDyi7O4ex9ZmRJbqIwgrUkppYqULhCJv9ACZmTi0RpaUHNPoMlD9eY0jicIbk0MBO7fAS05LOij534QD3RBSZheU7usCvcN/79qd3cgJD0hTdnV9wU8HWK6xWImC8iJvyC2qZwEDGX2pn0Z5HXyqNQTI8FuWMPKC0XeMrZuUL+rtKtYy9faHFo9wTn5DvWdGlUgT
+       properties :
+        x : -1
+        y : 177
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Hides the sliding window 
+            WinSlidingVisible(IW_InfoLeft,False)
+            
+            // Temporize the closing time of the window
+            Multitask(-35)
+            
+            // Bounce on image click
+            WIN_Home.ClickImage()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Music
+       identifier : 0x238f089f2153a7c7
+       internal_properties : CAAAAAgAAACc0pDLzrIGTX2eBuG1SerDBl5toJcChfz+QMgrV0mk/3rTTYl+Xs6n9WWWPaTY1D43OJIi5AoZn3VTAThJwEZ2ubySzDCktYgMC84aHN8ofAAiUsPehP0dxE5mLFqUyYlNen9fJ8k5ndbUXUR1pCHuqlJGj8B1SvxyTh/YdoCpC6VuJ0qu669Vp1DJrFOjQkqllG/o5Ls/6OnZu91Z1qy36KlA44ha8PE9AkZ3Jc8UvbqD6PM42Q5vGDcATEpQs3bbsYzRic/+KQwFgAvbEWxEHa9rVnW+RZgQo1eL7J8N6ksM8w3n2q5Mlvt05VcL9jiUGFn1DIcypUXmokYcKgkK5ZXHzXCX37wacMEP2TrTnA/8G7YQz/gFrkcRUA1E6xUBZPsbGxKRyIiPe+JIMclq5nAJNEpOc0r086KReWCrvNxe9Xc70LgJEuyStFDJVsU5Y4+XfLW6nbEAtQmLHHsJKsjhibOc8T7C3jBY52Sx7LyQoJJM7Cf7hYdt3eVbmzLvmPcLDWwLGLsnAai0QIJN2afAjRyHx8nAxgcMEsnoXBwi/1js7YDDGHigwdBMmAoZ/TFyzegUxadS8+YB0YAc8bHlckqMYHWqP4MpsKLc01hFJiNLePn920nxfjnE+g5Yoh/5ejLy8V0rCJYH56SHTapFGs3ibwksu72BRVlWHNLhJ+s2ico0GdhpQ6YOoKHlHttrQZiJOT520XqYC8aLORquh3sBm57/R+avUA0PbULLun6QojuTQLAw3dvWqpnr/RA4lkr+qMArvcPGrhpXn7BItPPBesCCvLAWWBICIxLCwALGV5SnRoYtpsH/iB47cHx1pXwg4vqAcDcUdpSJZdl/NS7/X+9116s0J5KPhvTNK8jPCUQGKiu4gkemEZdTO06VJVcPZZKlpAPPn10RQpSvXnPgUEDoK4SXBAGv4YbhSipo3M0wI+FV/SyIQmA2TXmMGyuTwG2Y5dN9uqfuj1TOhki5BS8evWA7
+       properties :
+        x : -2
+        y : 225
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Hides the sliding window 
+            WinSlidingVisible(IW_InfoLeft,False)
+            
+            // Temporize the closing time of the window
+            Multitask(-35)
+            
+            
+            // Bounce on music click
+            WIN_Home.ClickMusic()
+            
+            
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Video
+       identifier : 0x238f089f2154a7c7
+       internal_properties : CAAAAAgAAABAzGtXOuN6MURGz3QAMQ5N97jGo5wu/+qohPHAmer86xpfVfoB5fcX+Hc1QcaazM/a1NICiadt1w8SJjON26UpGQ/t1sgWJM46rwhpR5F9lOWYsXYNkNl2/Tn+hnNHsCy3Eb97nYecHMWcnIDccbU/X1zWKwrnC8BKIjBeZhnQjWMruz/kis9scxbrMcDebZRTHFK5/GD3uQkepS/+IiYSAK2v1JoBekWcdpino/S1xUVuM9gmrvt/SLfd/0lg8chsI9hWzXNL7Gh+LzjSXtegUd/olwaTS0xWQmxhlHldQzNnvuPS9o614Gs+ATnIqn0X9lWv1qWibBIvblki7+k5fiTtInzVCepxdOAV6OESOArr6SqsopUvk2ieMNeaqtjLVCC/Bi2Wg1wg1daejTrCGCWQiKaxpEL64b9tmQOmwgG6Z+Do6yZ+65Guux2BzYpBdexSu4MUUJs/0hb9s62vjUT6VFAjidfotZeTUypEQAKaOZ3wVztH+MWd5TDG9Nq324laoWfSkEK1EeoRDZu59Wiy5N529idDkh1qk+rHaAgNwYfIUiMvLXIA4xHhefA/gCMRVxWVE5D+4VaKBvUeg+x/GZTxnfVLsedrN3Gzs/g+XmbJa8CZ3rXL+Ji7vzgC18OmDNd/h4ypHL5YIIMRd1kzwwf/wptT++e3zkp1EqjcuVIC1l8UmOA/e50RicGVc/HKsRE+7QVab4ZV6MET4aXyOi2gpDKiQW7jQ+hsuY5AToFwU6rb+WjikbCPNbs9nmpfhsm9ToUNGUU19XuhuWW+B6lMzRIxbnw0g2X7ycgN0kVGhg+HWdAVmErgSTIPWQTkFT37sm24Vp3Bw+GlIc6VqLDMaGuer2GUfonyMO4mnaPfwC08tyPSYqz7pH052hxuu1QG+zkEcMpIECVQrZhZxkgETPJezKscW1KCMvdzSqQVIrqjG65WFyFPu1rGr2w+YA1uFW+dNPZJgWnEJHqgPC4bCtpPXkRmHku1
+       properties :
+        x : -2
+        y : 273
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Hides the sliding window 
+            WinSlidingVisible(IW_InfoLeft,False)
+            
+            // Temporize the closing time of the window
+            Multitask(-35)
+            
+            
+            // Bounce on video click 
+            WIN_Home.ClickVideo()
+            
+            
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Documents
+       identifier : 0x238f089f2155a7c7
+       internal_properties : CAAAAAgAAACFpEFbeHZ159i/TaEqY/202LpuPKn8SCfHXRBDuf+VU83eMZz+FWSKdja7pp8LifjGgsnhNZUdapzBWlrr5ipYbAaBL9h9KnQodzKJwhbvwUtQBiCzMTQo+2cDtunx7fGtiuRQlKpcY6xtkE/i5WKBXtzmr68SS4EzKYVQ08vmNzY+CDmIoREAvtKVru+ONTxnMItu6C4j0tO8aANSFZOTt2v5340mMKcBdIUpkUCNTYAvbNPYS87c40Mnza2fzsIYf1xNGxBR0LK9vPtZaP4TuxiIDJ3wB7Pn+Sy2GHZDihCVJmKMryKx70jR2lef2QV3Y0tcMHrDCDPA7f0/LTni0ALiUbKfUMaGa54dNe32698za8lRk222p4UAnKEyRYHHsDo6eWBntpqp+j2B6OrRIxpZSKiHoWfPXQknDR5kc4t3CehpwJlKxi2I0fFiJWGVe6DjXIAGnYfK8s5IbD0j/malJqDwKHeP8bNuGced0+DCmF6IVZ9inI/reSATLs1nXS9BijvHE3J5WSSX8qnoB26su4tc1RjbcmFYPTlZQRQ5qR7xjFpGqfy+VxG41Xt9klFiQudwQhKkCxTcaVk9kfYlpou3YD7VEVNbq1y3mnywFM3O8TX0iJfZ5ipws8cE+cGlmddeBvTLEqzqgQGkWV1jVD59UXzj6ZFR3L2nbRKcbT+ZOqq7LIJdB7UUnR41Rf+veM33giUmTxq1a3O4x5kSN0Scv5Gwrcat+UdkCtIAWsjJpQWQBWz6JehW1XwtQPjSvx02p7/rK23hvnOogbfUxMi4IifrFF4CxbL13roHiMw7hkSCMcBZwkj1rUMNR8ZFnIFg3zcmKF/Xtimi7Qq9bXdS/0LKL/2k6lpkm4hwu0Z4zPZlGSXg6LZayA6nVFIxT072j76mK6odtF2jJ9hwfc36BWIQ0KtqaiiJQfn3a2OwECSk53xu6Mzj+ERJxd4f49eYewWtUArQhhmJG/kFXVdMfuPa2rz8YZd8sGE=
+       properties :
+        x : -1
+        y : 321
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Hides the sliding window 
+            WinSlidingVisible(IW_InfoLeft,False)
+            
+            // Temporize the closing time of the window
+            Multitask(-35)
+            
+            
+            // Bounce on document click
+            WIN_Home.ClickDocuments()
+            
+            
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Archived
+       identifier : 0x238f089f2156a7c7
+       internal_properties : CAAAAAgAAADv8XlrNYaY9pB35+J6H2ar3Rk3v9ZH6keARWyecS8xalwyNgV48PdMnEd/MGEZ+FQa6ldxnMgcQi5w3CLvaehNLMYu3UBY372rEVr/Rht1ocYZS67HS7m421E3gXwibO8qx44jFqUiCRPZy0pGQfBIU5JaR98PY8cKZ8RSRS6NarWSRZNuseYV87ThqmA4G/RhXMMLdmhVhow185ei68LnNN0PQb6eE7T+gAv2FOckQudn1X//5JCB0zTI6DJ0/mdXeIuCH6oiOzsgUAB1C8sXpKGyXqIK9txXljLite35unPdBJ7fGNbn7cvjHzkZAv/1AdxrzhyMBsNN2yZQRUFGhRdlMddcxXoo6sCbm3bHTKdYwtRZQkWOZDh+AsWqy0Qf1F5IlIRsgEFWTvrxn3x5IsoAGiK3geiPYHAgdt3y4ZYceRjLrTGHV9meA+eIpLbJ03Q7kaopxjeMdfVR5I6ad+iPiZtdTupuuZtgnsZRZApKXuUcOY3aUXsCI3d1vkiagYQTuMsWtgl1xFwKDlMJXJCJ+W3QDBMO7FZuxqnvzqfjnPC3YHNFhFyrU3hIT+bc6g6K9kFnJy/ykrLH942OunRodAVTPTkeG46nogQhfx82/UPQbeoFrfvCHreajybt9QZfb8cvG991hSA5Ue+VQu0ysJ7nxlFwPwiZyZH9ws+4MgWzXp/0a9KQlc7aqekEI5j/FHdG55aO5sIqVRstoBvvCYJMDrqJGZd9XJ2UB8lU4dKPNTYH4mIPjycWkx1mFguSI7+JuIDz0ENcPLtFAl3BuPh+mVj8vp+GBFKLC1XXnVYJhk9xAGBivjflg5TKQY3XAgGHwtQKeW+cCi+LLpAEzdu8vueP8eaiu1IGwGn0AlIA4ukO1t+92hX8cN2igNd3q2ccn8Dr9VGJITif6Y1sqJx9h6AanfH9Eocu2ysUzTjxyT4AL50cpQa6tYjb7EoMLHDcnxxH7RrrhDcqQvRcxW+q6pc1eFMomZrIWw==
+       properties :
+        x : -2
+        y : 369
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Hides the sliding window 
+            WinSlidingVisible(IW_InfoLeft,False)
+            
+            // Temporize the closing time of the window
+            Multitask(-35)
+            
+            
+            // Bounce on archive click
+            WIN_Home.ClickArchives()
+            
+            
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_Image
+       identifier : 0x238f089f2157a7c7
+       internal_properties : CAAAAAgAAABsQa+awABtNCPw1vP5a7AVV7dRT96IXSJsS9W+aLsYKPjiHiReJhg1Hw6yzGuhTEQX4LH/H2Zm3OmpBzQDlJ/B3GJ39Tq1QcdtjgeAjTQov/HaoA81DdG2N+O0xz1i7lcW6dgXpaz/YfGQSMopocvGXdZHiYyjpd4grf9VJJ44ZDi8UJJ8TfjG3JlLGhfTi4lQ2+1ww/uy32wPsvF9bhz1kWdxodkHjVjqSJRn+TTlhv3q3vvWgWOZgUwwLD5OOTTSbKhRVSnfsul8GmlTuONtOqdFhJwNQEEr/LTCnxRD3j4S2MaLvGjeUXsjWlczesOyzKNWQ9/Ul0Rf5B5DRHalY/J725aHCJP40gQRTiRf6MiSI4oL7VuSj4Iy0pf8W/lTce2fJOxRNIh4j+NePT1oQFmt0utJl/W48RWA5Z9Jt5N/4k1A8Y/OHwULlF6+QSnLaqll42IRXJMJQY6x1+n+uydJNsse5xNE4YHrRGAcH23W5bhK5ojGizFrF0jlvvZPCNkMqrTTr6uPXIROwWPQVxJWqerVqr/jZW1pOJc26HSSEIRa6OoxpiKMC1EISR0S6jL1RaXMrisrRiEPmWJrY9FO3pu4/vDcSGgKVQa5AwRW8dqUJ6kWSoJmttkTmSU+A22j1a/J7iFnGcYsqMt7KIFW3JJydM6ckJuZ79QdlnzW6JDFAUKtHDtwOZ89Xm1M/Dx7USNJc+ntIvqKnQ82GXdIVGd5pALNG/1HY2i8xNgxk0NRR9En+5g/wN19e2JRTHF1qqAEo7P1mlNsSLjgiV69U7GG0OEbdc9HOCkzcp4V2JMXcae8yTt/9gjLb9mx7MtnYr8rEbLS1YR0XtufTbhKJ1NBCt+uhg==
+       properties :
+        x : 32
+        y : 189
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Music
+       identifier : 0x238f089f2158a7c7
+       internal_properties : CAAAAAgAAABiVWecd7741jE5c48oY/Prj++JwsXI2JyAZP6JXOQJYncKcPYMqAzXwWh0WLZWRFVhLKUAhgmGkKaXlQJ1ReAy+PCcAh/bNYp/cHs1iFgk2dzovm8apY4Vc6HRXtChW/GSDcdJxJRKGoSlvp1auCsBCi15j2bZUIqiCA1U9/saEEs0FJZaq8KLrBiUneMe/PWWLzCTa+3v84/ZbfF+zxM9QLvw8UT7cLqpnbNBTAk4vhQ4ALGsI8bwpCHqqHRzEJzoniddVxggrlyUXTj+Q768SRu6JLnBqFdwrQ1sFkNCtv32GBpy93bzKVCqUHhtKc/1/83hxX5jmUwDTVp+PoXIT+tdBP0apGXJ5+k4zP+YK4OgW5SotfbFsNrXFWurVfMVUk8FjS+tuvT7YPZSFeB+dgqACiAsvdKqmtDxUya3udBa+IYQY2+XncRl1RVs98D17bcTx+82x64tA/m4uWlWyEVjByk6CjdYjy6EkTCxgiTVYC5viEY/eD5if5NTwRBTvu65yeKCObgsJMeDUR/1ifAb0n2Q/PBXNk1U0XppYBtrU0MpfPkpqZ76yGBjeM7gFJGYRj3Zdt0qvLCOn4BojVGdcBQ4DBrfoBZzeL9Xhm7JSwIGIbeTjuodhEqxRhXlmt3/3bjJhoHylwXP39YF/uQaVYbkWk2MmmYwVMiC0s0JzckASroLcBI7ouZr38Q9NDlVDb6HUkxPAGdkEQr6rvyShO10rp2fpBFyy0eQT+0CnXIVDdnCSSTZT4AtG/XVc4glaLskclgCJExqqNxSrV9N9qPDpjaOeNlsOUvioxaF7y23GtWm4QZ3i74WU1UwetNR4vprCSyXlLBZKlKbU7kZ8UU=
+       properties :
+        x : 32
+        y : 237
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Document
+       identifier : 0x238f089f2159a7c7
+       internal_properties : CAAAAAgAAADovvaSKHQp+7O08R7uH9rxchU6OHGzFP9PnhbQKgJqx9VmG+A3yovXUGMO5JMk1HRivLXzsp7fAyLDHmiWchM4SerStTxR0xRlh+zb6vgCTQldOu8sYi3Z18FKtedLRWY50xZiKDrt/5c1sM9XLJDfMiJQBR9THrUnixxpU4A78Rv/FzC1MNrVOkJzwS68qAAn6naIyTJs3+VrknSmQjyZoDgPDaZ6hgQmUMIfGuObxlSUtn5HxAh0tPEDroHMJd9taoKa27fjr2n5X6wOu+/FjshiAziIEHGy0yWT2HFCvBGSuCJLbrgewpV1cscRtJSrvzuQXI7GIk4wG6o17K6+XabqE4X0TXYS/cSXS3iTPHJPglZ6Ogg6MU0DRNr/uSQLGV8TugrK97ReGU6NYR3dW91V9muMoIwv8fiEcSI64uffLcbKzVJxcopebY2qGHBjn7lJ0Qr0WbUdjve3B7NYH6g4WVGT75Z3oR0f6yUD+9Cjr9HgZKt90B+1U3NNbA0lF/Yu8BM/4T+iA4cfg4eAMBCX51SwAc/bdogpCKUdLlHW5O4qwJoGWg/4unVe9ZhtsG0PMVarWK6Vvmmr6E24nmDYG/F1hgxfp8YClC4cPFTXjQHGxm0RLGA+lXRMn9V6CubDCTrWJ5unGwcaOSEHAKKgypy16Tqu3VRZpGIQBpvsZ5RCC9CL0FoGfGsRafcx3cwIuQ85496ljX+UZO+MlusKMfP9/R56nPzM4jQHFdw97bB+bD/7k1BmQs56BccaNxnShuLm1lJ3sKhOf4yKwGMWB+2r0JE8JvkUCTx9mCxDgvT7cU67jsp0ZLk9nOT7QOhlI4du4fhqQeRBjmxfej3/VMUl8tvz7g55Uvs9kZ1Z
+       properties :
+        x : 32
+        y : 333
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Video
+       identifier : 0x238f089f215aa7c7
+       internal_properties : CAAAAAgAAAAD6e7M8LhniOaIurIn19wm0ahKCQ1X2NcejHXKjwn7diJHo2wqvBwH2HenLHpdiFUZSyAiUINhHTp43pMxpDqTMinobu9RZatA+vySY0FsKeVMFi/ppfsIn+ry2Dj23MPZK8pkBd4hERBiPTOKldwjUT84XaF5epDI06FhfrN+h85VMAPy8N70OoeX0AuW+JzLVQdh4dR5XOzvs4wrNIDhISM13RSb1XQqhHG2C3GeW2I5lZn5FlTmqhuwuqQryAQFUUrzxDYSqXECv+blcXBc6roq/iRPJ5dDOTiLGE8H5/4PNG9N/tGBt0fVbalQqtiZZ+jihz9Ab9Cm54z62IPpc00GDcCbQtjPtjK0/bOg3TDyWn8hXHbmdxIs7LLNOW/1bhksSf7i+9BbNMtSMNxB1emo9IuY92fZW239VFjGECLk58sPHXWQO9pH9X1rwdc9ahB7TdwGl1smgJIWQJk2chkpYrwDb/W67Sa8JyVU7LhumuZO12VLX7l/WngzQomXhMuGKzNUYnaQTtPVvgHq5Cnb4ZCsQlXhLixOXJKriXMoTLfTuz4cpIyFaNCrQ1Yk0feSAfJLI18ZmAm8UJaxDyTayVxupeHa5V3Y4KfDrgBm55ZEKPGkBKwbJiOHNxsTngTV9Qt7t5Favw3zk4GbdhMpDjR5tIuaYnzDfyNwXTc0gaUlIUdqhI87CkZOk/XfWvBWNgIkUAr9Tuy4BkgswBqCu25ca+A8Bt++4PvPsQ9prdCa0Hz3VfH1GO2N14W6QuA21xEK3FX73rgp2Cv9GwpB76UkdezD96Z4MaS/C7i0ELwHok5BxdeR0/XyYEbPwxseRumDQoLX002ncUsHpK5hL51+escqAhe8
+       properties :
+        x : 32
+        y : 285
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Archived
+       identifier : 0x238f089f215ba7c7
+       internal_properties : CAAAAAgAAADrxxlhcq9P8j7ge8DSfKDaAzvI0VKtw8hAMwPPAQqPXw4X/bCXHBKeouW11P8eLvztNTOphZrj7hD6dVI0xdrcveHF7zWRJoF3BuLGz1lojeifJ82EWOJ0n3QZjUslCULPUY1dkpn1y4rdQYXTnEbqcE0+SvffrLx8zARy7ssInkoKcA2BryFEfJ39SxNx2TuXphj3fKvV3dImZU9ccyrR/a3nknGvlXj1a6goIXAPykXMcKmlj1u09urW8fFMUI1wMaEZ8nMlGb/SNLkm3AGe7uFec9Egd3LDt3zcCiLugIJ4fCZO5ymaqSeVka27p617T6ywmqDKmIeHa/IbFaiqKEJsCPE/n/ta/sJHIUzAFr6UTI4f1dY269/M+gyL6IusOn5uoPB0ArqdLrEh6pN7vP+BTKdAn24Qcjym1yO2Rj9/FbKwkvPvqfb4B5g5pr2bACjOWXASJkKNXG7fVRx5hY8/QOqc48qmO4pUrKoE2wKCDg8RVLwEVSaio9U9wB8EXKFDjML+4GMuqPggPqqOcUxBopLw7P3WzoANOEN+UIMr3r0tDYwlnSWABtKwCxL1WhKWr0PcX3xBBu7qKvEqObUvFm/ykUjM77Al+atkyB1v1gqcQOgyJgyICds/T+yVjgtRCB6vXCwVZwALrzQXUjjnlqdwhYMymj4uLfv2SLL9YWioE1Cb+YHAFPL2HZ9d+zpiksQDjsQ/y21OpgMRk+MkJ3ZSmS1e6XmbsNzwpzCRpbXyAvkUUyQ8m6wFg0Gsca6nto1um1+Y/ndoxWvizF6bY3DRna+jhikU21Z+NAQMiVmmSUw0W/J/AOOHOGhPNY3kNpuXzIiOqdi/uODCEtf14YK2tNz39oCOSYriZQ==
+       properties :
+        x : 32
+        y : 381
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : BTN_About
+       identifier : 0x238f089f215ca7c7
+       internal_properties : CAAAAAgAAABpu3gOrltcPUCyaxAkbdqBsXNk4kTV7jgI5NbNrPpvEtE8HqqUUYCbYBNFcTbdDeCgsER1h3IKy83ynNazLq4NO6jUhATPyC6Q2h19KD8kC0r7KhjJBtruJxcj1EaHg/hPkV8dux+z+43FmsjNZwPPQVIJrQeaac4Y0O2/UGEKpOK3F7DhBnRG8WnpH4/VcpWZNKY+mMzXHrae6P6AmfPilrHoggLZwPtiEjcAGEetGtBBvhh1zXFAhAlb+S9vkUp+UohuCKAAAMXiOVaBELXIDH6Ohdh6NwZiErl2TZdD7JQkBdxIaTDzNljVUxVsj5jXPXVO4srRW6Aflmx3iizMMDOsbVTHB+IQHgwOSNjULD4mx+ibMZVY6eYNS6uuTq4z6mAZRGCcoCgiVkE6kxkuizsVpndLFDXM/ZykNORjgUuY7p00TGMDJkNmfsSNhA7r4JLnb2V3UYW63AOtC5Hj1hgxRLQWXCaay4P2LvJqV9B59397P7VLfHlEN3p8DhZ5Ecje9xW8u1iGFp+NvRo8Fhm7+pK51UX6U+76mcPqO/D1jqFwAqYXtjY2tmU56eU1M80Gk1P3CmNRzUSTR3+onJdiXx3GcP9B9Kq2EppmyltflQIoMHdRDgDL8DRk9oVxia+l+eTDI66h5NP4+6yBNhnim9Gvdoj3OMjpcOvqSpXdTjUWTeiXT1rLxusIA9hAjLmtRa0md5M/dqtC4nCOOA7c/CfgbdPG0LxNMdFj9h04DMV+03o4Ipg7bJCQFV6ACL0zlwggsT4otjKR1wnlKDtUNisuVqrnehYPUkxyj219QQ5R+IWV4lm9VddtuUey6llo5jRwjYiOx9YDve+1cbK2FTOQIk68cW3eSFuAPmdXk269sjd01pDXwbCmKmYzmvtzGdnL3jQuxMofIJH67ryFWwHHe0/QeUZw0bTm47O4r2HyA0tQvwBHzIPC891ai4G/EtNELQ7JmOMuryVo6Ea0CGKvprZR7CHJ92Kc
+       properties :
+        x : -2
+        y : 417
+        width : 246
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Hides the sliding window 
+            WinSlidingVisible(IW_InfoLeft,False)
+            
+            // Opens the "about" window
+            OpenMobileWindow(WIN_About)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_About
+       identifier : 0x238f089f215da7c7
+       internal_properties : CAAAAAgAAAAROlDNpo06qbgiyHVL0oJ0udgra3SRcMWRcX/UdDeefqYv/b0VNoTcbsA08ldjQISFL8Kt7mVuFR7gfW290FHEa4O+YXh6w/Fpfzc/vyl0KuoinD6ERh4eSokMDqRfjjkySJ4UwPetlB2fyEd1v8kOFh2Q4G3QNbSbFRFWddF8erFDdxMhR4Tfa1Nd0YRtamAsR1Al9n9i9jVeTzT6IWDKa8Z9xIt2MjCCeNzbgOHOFf6qnMx/tyrEEG6dLBnSTtfr6iM8edWlGlnum+mm1AEzL9JaZW4lDRZ7yhBwZ0ycdy/KIg972p/2cY6yMohnkRlBp2lqiSZLbWZu1CG817LG6+s36QPyy/Xp+vIYNuF3j3PR3f6qtIROMyur6/56HMWmjcwNSmm+L3oZKZf1nDBBeTOobafXFikQA6vghs5Thg8F99zgHTZ1jHky+NgPtkUoEQzYNeyAXoFumnpASd6BjpBnXzvzpJDNvJ88WUoeF1UgJeOJmEBbwet0wDy7QjQTKfjTQROxZplNNU4MsrySxCu/kPZUtjGaAiQNdmnWhuovk6FbgwzF7vnBFjLrGXLnSThk8kwHZn82sIzAoCn85GFoWcsEBMp9M5OUmOb7lWn0Sf8OaaIrV+x73BRaOPfHojXHA1ABpd8stqx7YXzuWQ59Lg0iAgR2sH/SCXHy+ZCK7XxZ6qa3OLbMrWVKh0+y2ApDGK9xfMKvSGPpuvW/k9h0aoPQovpFXqxzM/jm+tRmq/3rnZODITaarCS/LyEz218cQyLOslqsCYKiSKQFwcvhOmy6V2LKRL3/uq5pBv3yPFQq8JmkYkhlmaIcCg67RZ3TzZ0IlPPtGC4ZYI1M4qgIgrY=
+       properties :
+        x : 32
+        y : 429
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_NoName2
+       identifier : 0x238f089f215ea7c7
+       internal_properties : CAAAAAgAAAD9lio3vmYDhKjJZyRPvWZ708pKSCCuhU585/YeJDXTSlDPfhIzkuQZ28CzvWAsj0kK8dgClrpcAPNSbcesoObCHsMaIVc+2QPxyyDLOtFB8+9cfZLGE1sV1piDN8Lt22XoPIGwSmPm1Tdb3EfOSzsOk8q+1viB/3hQx+7hFvZzGf7zq5LRmc8iKe7SbHwYDPLFJ8ZEJna5acNsvU9gwD+uuOeyGVNbca2JZFp94qLBuRbuQ9cXbtz73f0E1HTvt8RzAk/Bo1Lq9D8HkFFt4guojbwsk2cxDT6oowW9l0fAug61U0PGeBDBZIkDPeM+MjRXzeZZJKlknxJqaHoJJG62kuC6Px2vXUcD3jNb6pisbXj+kOJC/2Y+rgeG3Epzz/6l5k0Z7NfRsaCrJbogz+hrYEJXJrxf94GQFfUzMlw6aNRTuNERp9pA//G70V4T/fY29PGxc7uiQE6oLZf7OH7DfPe2LXQ2BtB91NmdV+SVwQv/LuK4ARoyfiUiMdslpVTb4S2WZ7TnJA+d+4Ad5u8pitjeOm6WRPXSZUXT/D2URIos9f1j3jQu6VU9SEyenCx5nfJJ8+vYyJHZUFJoE5SgK59NEaVKGEjyoaM5m4f9NeVNFudBOS+/TLmknrODFiPM7AzU6kr58S8NIJMjtEqIQ89cx3xkV/PmXAJOwYueWgwG3FCYe/Ewk1A8suALX1coiuUYHg9b73oKEGivJzfHUl5Q/GZtmEpSYyFsjXn6PH67XPHexPGGj127s4f+aykC20Z9kEYjDJR5/SWA/ldmcdJKc3WaRn5/e/yrMJXabNfq3aEHc6EhPUpALBAC5hnqag==
+       properties :
+        x : 18
+        y : 21
+        width : 60
+        height : 60
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : STC_WM_Android_Explorer
+       identifier : 0x238f089f215fa7c7
+       internal_properties : CAAAAAgAAADFhxKlt5D6EdnHAJfyKH5a5R2fXvtZYRWh6TCXjxtrgWVqVzNQ/PomQItgLe8sqYDqRUbAQIf0PjqQekeJcd96615PPwlMqDgksye4wpDxKFaGV93S26MDsTVvrttSQdWgvYHwsra10iw1Bw6xPSkhrVIY0sGVBFOlWSPkkcKD8HMNzbHrw9JfS8T5+0trRlXfiiT/j2Hjef/OWNBFb0TUB40+9XR2TJguqkshEC9KIEX4UVlMnDAj2BjN5jwpKlybqKKDhRlg7wNPOKyjFpA6BGhti5NVFbxNKDe8wgvDbwotJxUCJ6aW6JKqe7VUFdF1rI3dPIGZUCSNSZvpPnIzfgJ/5m81V/3ecm7dxj2NG0tLe9GZtNRAIg4Ob/JlLL0DTR768v5cAbPKAYcnX0w4YKFGhf9OAcA9F3zerFuSn+lZ+1wiVwlX9X300qz8Gb0l7ObXm9KuJpVHbx0fPOEHjzeKeTZMMNWb3DkqOB5v65tvZlbf79d+rrquWTNT/sVHP2YgrBWzauRD1Nb+4b1vwRMQpqgrQgTRFZQavg==
+       properties :
+        x : 19
+        y : 90
+        width : 213
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         procedure MyWindow()
+ menu :
+  name : _Menu
+  identifier : 0x281a11d6051849ef
+  internal_properties : CAAAAAgAAAD6/fwZdBRB8IDYAHHmdn8xAxD+uXi41EZyxyOHKRRlDi2m/CEs9JtCuLNtpQR4bdAgFt15C/buXaxdGrwMrwwJuCoAJikYGopc1uMHSciY5Vph6EKTutrarwgYmlfNh1aVo8wMnkrPSeoSP72wKzwyxRnyuY2QRPOf6GYuWM5l6Ipw0pQnD39OpFcWAKOzfgtGoJixkv0AnpT1JQlY7hTDix6EZgtEQ8rOlTETgsUFxDI7MJeOlRLAFoXGjtTgiCQig5pkzhyLO6og7B3dCdLwCaouJtgl9qLZjPpvALzmdQLCOpZqXsPsrLga0fNO2Wo=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAhGk4O1vnudEezjCfItdamZFxsqq9aBESYamZKwGzyccamqeyInkpSEzznq/sR1z/r61J0Q1ZZQABreO/LC5x9a/r8/fRIITDwjTrCM44i1AU=
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x106de39a0018a0c7
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
